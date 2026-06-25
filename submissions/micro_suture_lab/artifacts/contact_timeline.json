@@ -1,0 +1,2761 @@
+{
+  "summary": {
+    "samples": 1000,
+    "max_active_fingers": 3,
+    "stable_grasp_samples": 7,
+    "peak_finger_force_sum": 89891.21054,
+    "slip_events": 180
+  },
+  "samples": [
+    {
+      "time_s": 0.0,
+      "stage": "scan",
+      "active_fingers": 0,
+      "finger_force_sum": 0.0,
+      "touches": {
+        "thumb": 0.0,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": false,
+      "lift": false,
+      "hoops": [
+        false,
+        false,
+        false
+      ],
+      "thread": false,
+      "slip": false
+    },
+    {
+      "time_s": 0.032,
+      "stage": "scan",
+      "active_fingers": 0,
+      "finger_force_sum": 0.0,
+      "touches": {
+        "thumb": 0.0,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": false,
+      "lift": false,
+      "hoops": [
+        false,
+        false,
+        false
+      ],
+      "thread": false,
+      "slip": false
+    },
+    {
+      "time_s": 0.064,
+      "stage": "scan",
+      "active_fingers": 0,
+      "finger_force_sum": 0.0,
+      "touches": {
+        "thumb": 0.0,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": false,
+      "lift": false,
+      "hoops": [
+        false,
+        false,
+        false
+      ],
+      "thread": false,
+      "slip": false
+    },
+    {
+      "time_s": 0.096,
+      "stage": "scan",
+      "active_fingers": 0,
+      "finger_force_sum": 0.0,
+      "touches": {
+        "thumb": 0.0,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": false,
+      "lift": false,
+      "hoops": [
+        false,
+        false,
+        false
+      ],
+      "thread": false,
+      "slip": false
+    },
+    {
+      "time_s": 0.128,
+      "stage": "scan",
+      "active_fingers": 0,
+      "finger_force_sum": 0.0,
+      "touches": {
+        "thumb": 0.0,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": false,
+      "lift": false,
+      "hoops": [
+        false,
+        false,
+        false
+      ],
+      "thread": false,
+      "slip": false
+    },
+    {
+      "time_s": 0.16,
+      "stage": "scan",
+      "active_fingers": 0,
+      "finger_force_sum": 0.0,
+      "touches": {
+        "thumb": 0.0,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": false,
+      "lift": false,
+      "hoops": [
+        false,
+        false,
+        false
+      ],
+      "thread": false,
+      "slip": false
+    },
+    {
+      "time_s": 0.192,
+      "stage": "scan",
+      "active_fingers": 0,
+      "finger_force_sum": 0.0,
+      "touches": {
+        "thumb": 0.0,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": false,
+      "lift": false,
+      "hoops": [
+        false,
+        false,
+        false
+      ],
+      "thread": false,
+      "slip": false
+    },
+    {
+      "time_s": 0.224,
+      "stage": "scan",
+      "active_fingers": 0,
+      "finger_force_sum": 0.0,
+      "touches": {
+        "thumb": 0.0,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": false,
+      "lift": false,
+      "hoops": [
+        false,
+        false,
+        false
+      ],
+      "thread": false,
+      "slip": false
+    },
+    {
+      "time_s": 0.256,
+      "stage": "approach",
+      "active_fingers": 0,
+      "finger_force_sum": 0.0,
+      "touches": {
+        "thumb": 0.0,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": false,
+      "lift": false,
+      "hoops": [
+        false,
+        false,
+        false
+      ],
+      "thread": false,
+      "slip": false
+    },
+    {
+      "time_s": 0.288,
+      "stage": "approach",
+      "active_fingers": 0,
+      "finger_force_sum": 0.0,
+      "touches": {
+        "thumb": 0.0,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": false,
+      "lift": false,
+      "hoops": [
+        false,
+        false,
+        false
+      ],
+      "thread": false,
+      "slip": false
+    },
+    {
+      "time_s": 0.32,
+      "stage": "approach",
+      "active_fingers": 0,
+      "finger_force_sum": 0.0,
+      "touches": {
+        "thumb": 0.0,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": false,
+      "lift": false,
+      "hoops": [
+        false,
+        false,
+        false
+      ],
+      "thread": false,
+      "slip": false
+    },
+    {
+      "time_s": 0.352,
+      "stage": "approach",
+      "active_fingers": 0,
+      "finger_force_sum": 0.0,
+      "touches": {
+        "thumb": 0.0,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": false,
+      "lift": false,
+      "hoops": [
+        false,
+        false,
+        false
+      ],
+      "thread": false,
+      "slip": false
+    },
+    {
+      "time_s": 0.384,
+      "stage": "approach",
+      "active_fingers": 0,
+      "finger_force_sum": 0.0,
+      "touches": {
+        "thumb": 0.0,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": false,
+      "lift": false,
+      "hoops": [
+        false,
+        false,
+        false
+      ],
+      "thread": false,
+      "slip": false
+    },
+    {
+      "time_s": 0.416,
+      "stage": "approach",
+      "active_fingers": 0,
+      "finger_force_sum": 0.0,
+      "touches": {
+        "thumb": 0.0,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": false,
+      "lift": false,
+      "hoops": [
+        false,
+        false,
+        false
+      ],
+      "thread": false,
+      "slip": false
+    },
+    {
+      "time_s": 0.448,
+      "stage": "approach",
+      "active_fingers": 0,
+      "finger_force_sum": 0.0,
+      "touches": {
+        "thumb": 0.0,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": false,
+      "lift": false,
+      "hoops": [
+        false,
+        false,
+        false
+      ],
+      "thread": false,
+      "slip": false
+    },
+    {
+      "time_s": 0.48,
+      "stage": "approach",
+      "active_fingers": 0,
+      "finger_force_sum": 0.0,
+      "touches": {
+        "thumb": 0.0,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": false,
+      "lift": false,
+      "hoops": [
+        false,
+        false,
+        false
+      ],
+      "thread": false,
+      "slip": false
+    },
+    {
+      "time_s": 0.512,
+      "stage": "approach",
+      "active_fingers": 0,
+      "finger_force_sum": 0.0,
+      "touches": {
+        "thumb": 0.0,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": false,
+      "lift": false,
+      "hoops": [
+        false,
+        false,
+        false
+      ],
+      "thread": false,
+      "slip": false
+    },
+    {
+      "time_s": 0.544,
+      "stage": "approach",
+      "active_fingers": 0,
+      "finger_force_sum": 0.0,
+      "touches": {
+        "thumb": 0.0,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": false,
+      "lift": false,
+      "hoops": [
+        false,
+        false,
+        false
+      ],
+      "thread": false,
+      "slip": false
+    },
+    {
+      "time_s": 0.576,
+      "stage": "approach",
+      "active_fingers": 0,
+      "finger_force_sum": 0.0,
+      "touches": {
+        "thumb": 0.0,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": false,
+      "lift": false,
+      "hoops": [
+        false,
+        false,
+        false
+      ],
+      "thread": false,
+      "slip": false
+    },
+    {
+      "time_s": 0.608,
+      "stage": "approach",
+      "active_fingers": 0,
+      "finger_force_sum": 0.0,
+      "touches": {
+        "thumb": 0.0,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": false,
+      "lift": false,
+      "hoops": [
+        false,
+        false,
+        false
+      ],
+      "thread": false,
+      "slip": false
+    },
+    {
+      "time_s": 0.64,
+      "stage": "preload",
+      "active_fingers": 0,
+      "finger_force_sum": 0.0,
+      "touches": {
+        "thumb": 0.0,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": false,
+      "lift": false,
+      "hoops": [
+        false,
+        false,
+        false
+      ],
+      "thread": false,
+      "slip": false
+    },
+    {
+      "time_s": 0.672,
+      "stage": "preload",
+      "active_fingers": 0,
+      "finger_force_sum": 0.0,
+      "touches": {
+        "thumb": 0.0,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": false,
+      "lift": false,
+      "hoops": [
+        false,
+        false,
+        false
+      ],
+      "thread": false,
+      "slip": false
+    },
+    {
+      "time_s": 0.704,
+      "stage": "preload",
+      "active_fingers": 0,
+      "finger_force_sum": 0.0,
+      "touches": {
+        "thumb": 0.0,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": false,
+      "lift": false,
+      "hoops": [
+        false,
+        false,
+        false
+      ],
+      "thread": false,
+      "slip": false
+    },
+    {
+      "time_s": 0.736,
+      "stage": "preload",
+      "active_fingers": 0,
+      "finger_force_sum": 0.0,
+      "touches": {
+        "thumb": 0.0,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": false,
+      "lift": false,
+      "hoops": [
+        false,
+        false,
+        false
+      ],
+      "thread": false,
+      "slip": false
+    },
+    {
+      "time_s": 0.768,
+      "stage": "preload",
+      "active_fingers": 0,
+      "finger_force_sum": 0.0,
+      "touches": {
+        "thumb": 0.0,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": false,
+      "lift": false,
+      "hoops": [
+        false,
+        false,
+        false
+      ],
+      "thread": false,
+      "slip": false
+    },
+    {
+      "time_s": 0.8,
+      "stage": "preload",
+      "active_fingers": 0,
+      "finger_force_sum": 0.0,
+      "touches": {
+        "thumb": 0.0,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": false,
+      "lift": false,
+      "hoops": [
+        false,
+        false,
+        false
+      ],
+      "thread": false,
+      "slip": false
+    },
+    {
+      "time_s": 0.832,
+      "stage": "preload",
+      "active_fingers": 0,
+      "finger_force_sum": 0.0,
+      "touches": {
+        "thumb": 0.0,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": false,
+      "lift": false,
+      "hoops": [
+        false,
+        false,
+        false
+      ],
+      "thread": false,
+      "slip": false
+    },
+    {
+      "time_s": 0.864,
+      "stage": "grasp",
+      "active_fingers": 0,
+      "finger_force_sum": 0.0,
+      "touches": {
+        "thumb": 0.0,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": false,
+      "lift": false,
+      "hoops": [
+        false,
+        false,
+        false
+      ],
+      "thread": false,
+      "slip": false
+    },
+    {
+      "time_s": 0.896,
+      "stage": "grasp",
+      "active_fingers": 0,
+      "finger_force_sum": 0.0,
+      "touches": {
+        "thumb": 0.0,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": false,
+      "lift": false,
+      "hoops": [
+        false,
+        false,
+        false
+      ],
+      "thread": false,
+      "slip": false
+    },
+    {
+      "time_s": 0.928,
+      "stage": "grasp",
+      "active_fingers": 1,
+      "finger_force_sum": 421.051,
+      "touches": {
+        "thumb": 421.051,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": true,
+      "lift": false,
+      "hoops": [
+        false,
+        false,
+        false
+      ],
+      "thread": false,
+      "slip": false
+    },
+    {
+      "time_s": 0.96,
+      "stage": "grasp",
+      "active_fingers": 0,
+      "finger_force_sum": 0.0,
+      "touches": {
+        "thumb": 0.0,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": true,
+      "lift": false,
+      "hoops": [
+        false,
+        false,
+        false
+      ],
+      "thread": false,
+      "slip": false
+    },
+    {
+      "time_s": 0.992,
+      "stage": "grasp",
+      "active_fingers": 1,
+      "finger_force_sum": 8292.25791,
+      "touches": {
+        "thumb": 8292.25791,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": true,
+      "lift": false,
+      "hoops": [
+        false,
+        false,
+        false
+      ],
+      "thread": false,
+      "slip": false
+    },
+    {
+      "time_s": 1.024,
+      "stage": "grasp",
+      "active_fingers": 1,
+      "finger_force_sum": 255.24756,
+      "touches": {
+        "thumb": 255.24756,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": true,
+      "lift": false,
+      "hoops": [
+        false,
+        false,
+        false
+      ],
+      "thread": false,
+      "slip": false
+    },
+    {
+      "time_s": 1.056,
+      "stage": "grasp",
+      "active_fingers": 1,
+      "finger_force_sum": 8063.2014,
+      "touches": {
+        "thumb": 8063.2014,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": true,
+      "lift": false,
+      "hoops": [
+        false,
+        false,
+        false
+      ],
+      "thread": false,
+      "slip": false
+    },
+    {
+      "time_s": 1.088,
+      "stage": "grasp",
+      "active_fingers": 1,
+      "finger_force_sum": 321.1563,
+      "touches": {
+        "thumb": 321.1563,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": true,
+      "lift": false,
+      "hoops": [
+        false,
+        false,
+        false
+      ],
+      "thread": false,
+      "slip": false
+    },
+    {
+      "time_s": 1.12,
+      "stage": "grasp",
+      "active_fingers": 0,
+      "finger_force_sum": 0.0,
+      "touches": {
+        "thumb": 0.0,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": true,
+      "lift": false,
+      "hoops": [
+        false,
+        false,
+        false
+      ],
+      "thread": false,
+      "slip": false
+    },
+    {
+      "time_s": 1.152,
+      "stage": "grasp",
+      "active_fingers": 0,
+      "finger_force_sum": 0.0,
+      "touches": {
+        "thumb": 0.0,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": true,
+      "lift": false,
+      "hoops": [
+        false,
+        false,
+        false
+      ],
+      "thread": false,
+      "slip": false
+    },
+    {
+      "time_s": 1.184,
+      "stage": "grasp",
+      "active_fingers": 0,
+      "finger_force_sum": 0.0,
+      "touches": {
+        "thumb": 0.0,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": true,
+      "lift": false,
+      "hoops": [
+        false,
+        false,
+        false
+      ],
+      "thread": false,
+      "slip": false
+    },
+    {
+      "time_s": 1.216,
+      "stage": "grasp",
+      "active_fingers": 0,
+      "finger_force_sum": 0.0,
+      "touches": {
+        "thumb": 0.0,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": true,
+      "lift": false,
+      "hoops": [
+        false,
+        false,
+        false
+      ],
+      "thread": false,
+      "slip": false
+    },
+    {
+      "time_s": 1.248,
+      "stage": "lift",
+      "active_fingers": 0,
+      "finger_force_sum": 0.0,
+      "touches": {
+        "thumb": 0.0,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": true,
+      "lift": false,
+      "hoops": [
+        false,
+        false,
+        false
+      ],
+      "thread": false,
+      "slip": false
+    },
+    {
+      "time_s": 1.28,
+      "stage": "lift",
+      "active_fingers": 0,
+      "finger_force_sum": 0.0,
+      "touches": {
+        "thumb": 0.0,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": true,
+      "lift": false,
+      "hoops": [
+        false,
+        false,
+        false
+      ],
+      "thread": false,
+      "slip": false
+    },
+    {
+      "time_s": 1.312,
+      "stage": "lift",
+      "active_fingers": 0,
+      "finger_force_sum": 0.0,
+      "touches": {
+        "thumb": 0.0,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": true,
+      "lift": false,
+      "hoops": [
+        false,
+        false,
+        false
+      ],
+      "thread": false,
+      "slip": false
+    },
+    {
+      "time_s": 1.344,
+      "stage": "lift",
+      "active_fingers": 0,
+      "finger_force_sum": 0.0,
+      "touches": {
+        "thumb": 0.0,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": true,
+      "lift": false,
+      "hoops": [
+        false,
+        false,
+        false
+      ],
+      "thread": false,
+      "slip": false
+    },
+    {
+      "time_s": 1.376,
+      "stage": "lift",
+      "active_fingers": 0,
+      "finger_force_sum": 0.0,
+      "touches": {
+        "thumb": 0.0,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": true,
+      "lift": false,
+      "hoops": [
+        false,
+        false,
+        false
+      ],
+      "thread": false,
+      "slip": false
+    },
+    {
+      "time_s": 1.408,
+      "stage": "lift",
+      "active_fingers": 0,
+      "finger_force_sum": 0.0,
+      "touches": {
+        "thumb": 0.0,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": true,
+      "lift": true,
+      "hoops": [
+        false,
+        false,
+        false
+      ],
+      "thread": false,
+      "slip": false
+    },
+    {
+      "time_s": 1.44,
+      "stage": "entry",
+      "active_fingers": 0,
+      "finger_force_sum": 0.0,
+      "touches": {
+        "thumb": 0.0,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": true,
+      "lift": true,
+      "hoops": [
+        false,
+        false,
+        false
+      ],
+      "thread": false,
+      "slip": false
+    },
+    {
+      "time_s": 1.472,
+      "stage": "entry",
+      "active_fingers": 1,
+      "finger_force_sum": 6743.93806,
+      "touches": {
+        "thumb": 0.0,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 6743.93806,
+        "little": 0.0
+      },
+      "grasp": true,
+      "lift": true,
+      "hoops": [
+        false,
+        false,
+        false
+      ],
+      "thread": false,
+      "slip": false
+    },
+    {
+      "time_s": 1.504,
+      "stage": "entry",
+      "active_fingers": 2,
+      "finger_force_sum": 22158.98537,
+      "touches": {
+        "thumb": 17197.21685,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 4961.76852,
+        "little": 0.0
+      },
+      "grasp": true,
+      "lift": true,
+      "hoops": [
+        false,
+        false,
+        false
+      ],
+      "thread": false,
+      "slip": false
+    },
+    {
+      "time_s": 1.536,
+      "stage": "entry",
+      "active_fingers": 1,
+      "finger_force_sum": 13837.28873,
+      "touches": {
+        "thumb": 13837.28873,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": true,
+      "lift": true,
+      "hoops": [
+        false,
+        false,
+        false
+      ],
+      "thread": false,
+      "slip": false
+    },
+    {
+      "time_s": 1.568,
+      "stage": "entry",
+      "active_fingers": 2,
+      "finger_force_sum": 41621.0971,
+      "touches": {
+        "thumb": 12068.02328,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 29553.07382
+      },
+      "grasp": true,
+      "lift": true,
+      "hoops": [
+        false,
+        false,
+        false
+      ],
+      "thread": false,
+      "slip": false
+    },
+    {
+      "time_s": 1.6,
+      "stage": "entry",
+      "active_fingers": 0,
+      "finger_force_sum": 0.0,
+      "touches": {
+        "thumb": 0.0,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": true,
+      "lift": true,
+      "hoops": [
+        false,
+        false,
+        false
+      ],
+      "thread": false,
+      "slip": false
+    },
+    {
+      "time_s": 1.632,
+      "stage": "entry",
+      "active_fingers": 0,
+      "finger_force_sum": 0.0,
+      "touches": {
+        "thumb": 0.0,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": true,
+      "lift": true,
+      "hoops": [
+        false,
+        false,
+        false
+      ],
+      "thread": false,
+      "slip": false
+    },
+    {
+      "time_s": 1.664,
+      "stage": "entry",
+      "active_fingers": 1,
+      "finger_force_sum": 27611.1162,
+      "touches": {
+        "thumb": 27611.1162,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": true,
+      "lift": true,
+      "hoops": [
+        false,
+        false,
+        false
+      ],
+      "thread": false,
+      "slip": false
+    },
+    {
+      "time_s": 1.696,
+      "stage": "entry",
+      "active_fingers": 2,
+      "finger_force_sum": 44163.61224,
+      "touches": {
+        "thumb": 7327.65942,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 36835.95282
+      },
+      "grasp": true,
+      "lift": true,
+      "hoops": [
+        false,
+        false,
+        false
+      ],
+      "thread": false,
+      "slip": false
+    },
+    {
+      "time_s": 1.728,
+      "stage": "entry",
+      "active_fingers": 1,
+      "finger_force_sum": 24418.41733,
+      "touches": {
+        "thumb": 24418.41733,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": true,
+      "lift": true,
+      "hoops": [
+        false,
+        false,
+        false
+      ],
+      "thread": false,
+      "slip": false
+    },
+    {
+      "time_s": 1.76,
+      "stage": "entry",
+      "active_fingers": 0,
+      "finger_force_sum": 0.0,
+      "touches": {
+        "thumb": 0.0,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": true,
+      "lift": true,
+      "hoops": [
+        false,
+        false,
+        false
+      ],
+      "thread": false,
+      "slip": false
+    },
+    {
+      "time_s": 1.792,
+      "stage": "entry",
+      "active_fingers": 2,
+      "finger_force_sum": 51714.54925,
+      "touches": {
+        "thumb": 12922.46431,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 38792.08494,
+        "little": 0.0
+      },
+      "grasp": true,
+      "lift": true,
+      "hoops": [
+        false,
+        false,
+        false
+      ],
+      "thread": false,
+      "slip": false
+    },
+    {
+      "time_s": 1.824,
+      "stage": "entry",
+      "active_fingers": 2,
+      "finger_force_sum": 30258.98114,
+      "touches": {
+        "thumb": 16236.73207,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 14022.24907,
+        "little": 0.0
+      },
+      "grasp": true,
+      "lift": true,
+      "hoops": [
+        true,
+        false,
+        false
+      ],
+      "thread": true,
+      "slip": false
+    },
+    {
+      "time_s": 1.856,
+      "stage": "entry",
+      "active_fingers": 0,
+      "finger_force_sum": 0.0,
+      "touches": {
+        "thumb": 0.0,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": true,
+      "lift": true,
+      "hoops": [
+        true,
+        false,
+        false
+      ],
+      "thread": true,
+      "slip": false
+    },
+    {
+      "time_s": 1.888,
+      "stage": "entry",
+      "active_fingers": 1,
+      "finger_force_sum": 10330.46916,
+      "touches": {
+        "thumb": 10330.46916,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": true,
+      "lift": true,
+      "hoops": [
+        true,
+        false,
+        false
+      ],
+      "thread": true,
+      "slip": false
+    },
+    {
+      "time_s": 1.92,
+      "stage": "middle",
+      "active_fingers": 2,
+      "finger_force_sum": 50883.11937,
+      "touches": {
+        "thumb": 12935.41839,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 37947.70098
+      },
+      "grasp": true,
+      "lift": true,
+      "hoops": [
+        true,
+        false,
+        false
+      ],
+      "thread": true,
+      "slip": false
+    },
+    {
+      "time_s": 1.952,
+      "stage": "middle",
+      "active_fingers": 1,
+      "finger_force_sum": 26480.05393,
+      "touches": {
+        "thumb": 26480.05393,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": true,
+      "lift": true,
+      "hoops": [
+        true,
+        false,
+        false
+      ],
+      "thread": true,
+      "slip": false
+    },
+    {
+      "time_s": 1.984,
+      "stage": "middle",
+      "active_fingers": 2,
+      "finger_force_sum": 46015.2,
+      "touches": {
+        "thumb": 26962.79724,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 19052.40276
+      },
+      "grasp": true,
+      "lift": true,
+      "hoops": [
+        true,
+        false,
+        false
+      ],
+      "thread": true,
+      "slip": false
+    },
+    {
+      "time_s": 2.016,
+      "stage": "middle",
+      "active_fingers": 1,
+      "finger_force_sum": 10547.97726,
+      "touches": {
+        "thumb": 10547.97726,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": true,
+      "lift": true,
+      "hoops": [
+        true,
+        false,
+        false
+      ],
+      "thread": true,
+      "slip": false
+    },
+    {
+      "time_s": 2.048,
+      "stage": "middle",
+      "active_fingers": 1,
+      "finger_force_sum": 7923.79013,
+      "touches": {
+        "thumb": 7923.79013,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": true,
+      "lift": true,
+      "hoops": [
+        true,
+        false,
+        false
+      ],
+      "thread": true,
+      "slip": false
+    },
+    {
+      "time_s": 2.08,
+      "stage": "middle",
+      "active_fingers": 0,
+      "finger_force_sum": 0.0,
+      "touches": {
+        "thumb": 0.0,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": true,
+      "lift": true,
+      "hoops": [
+        true,
+        false,
+        false
+      ],
+      "thread": true,
+      "slip": false
+    },
+    {
+      "time_s": 2.112,
+      "stage": "middle",
+      "active_fingers": 0,
+      "finger_force_sum": 0.0,
+      "touches": {
+        "thumb": 0.0,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": true,
+      "lift": true,
+      "hoops": [
+        true,
+        false,
+        false
+      ],
+      "thread": true,
+      "slip": false
+    },
+    {
+      "time_s": 2.144,
+      "stage": "middle",
+      "active_fingers": 1,
+      "finger_force_sum": 543.82533,
+      "touches": {
+        "thumb": 543.82533,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": true,
+      "lift": true,
+      "hoops": [
+        true,
+        false,
+        false
+      ],
+      "thread": true,
+      "slip": false
+    },
+    {
+      "time_s": 2.176,
+      "stage": "middle",
+      "active_fingers": 0,
+      "finger_force_sum": 0.0,
+      "touches": {
+        "thumb": 0.0,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": true,
+      "lift": true,
+      "hoops": [
+        true,
+        false,
+        false
+      ],
+      "thread": true,
+      "slip": false
+    },
+    {
+      "time_s": 2.208,
+      "stage": "middle",
+      "active_fingers": 0,
+      "finger_force_sum": 0.0,
+      "touches": {
+        "thumb": 0.0,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": true,
+      "lift": true,
+      "hoops": [
+        true,
+        false,
+        false
+      ],
+      "thread": true,
+      "slip": false
+    },
+    {
+      "time_s": 2.24,
+      "stage": "middle",
+      "active_fingers": 1,
+      "finger_force_sum": 16289.33606,
+      "touches": {
+        "thumb": 0.0,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 16289.33606
+      },
+      "grasp": true,
+      "lift": true,
+      "hoops": [
+        true,
+        false,
+        false
+      ],
+      "thread": true,
+      "slip": false
+    },
+    {
+      "time_s": 2.272,
+      "stage": "middle",
+      "active_fingers": 1,
+      "finger_force_sum": 37746.50221,
+      "touches": {
+        "thumb": 0.0,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 37746.50221
+      },
+      "grasp": true,
+      "lift": true,
+      "hoops": [
+        true,
+        false,
+        false
+      ],
+      "thread": true,
+      "slip": false
+    },
+    {
+      "time_s": 2.304,
+      "stage": "middle",
+      "active_fingers": 1,
+      "finger_force_sum": 8917.43667,
+      "touches": {
+        "thumb": 0.0,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 8917.43667
+      },
+      "grasp": true,
+      "lift": true,
+      "hoops": [
+        true,
+        true,
+        false
+      ],
+      "thread": true,
+      "slip": false
+    },
+    {
+      "time_s": 2.336,
+      "stage": "middle",
+      "active_fingers": 0,
+      "finger_force_sum": 0.0,
+      "touches": {
+        "thumb": 0.0,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": true,
+      "lift": true,
+      "hoops": [
+        true,
+        true,
+        false
+      ],
+      "thread": true,
+      "slip": false
+    },
+    {
+      "time_s": 2.368,
+      "stage": "middle",
+      "active_fingers": 1,
+      "finger_force_sum": 7069.2765,
+      "touches": {
+        "thumb": 7069.2765,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": true,
+      "lift": true,
+      "hoops": [
+        true,
+        true,
+        false
+      ],
+      "thread": true,
+      "slip": false
+    },
+    {
+      "time_s": 2.4,
+      "stage": "exit",
+      "active_fingers": 1,
+      "finger_force_sum": 7751.8221,
+      "touches": {
+        "thumb": 7751.8221,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": true,
+      "lift": true,
+      "hoops": [
+        true,
+        true,
+        false
+      ],
+      "thread": true,
+      "slip": false
+    },
+    {
+      "time_s": 2.432,
+      "stage": "exit",
+      "active_fingers": 0,
+      "finger_force_sum": 0.0,
+      "touches": {
+        "thumb": 0.0,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": true,
+      "lift": true,
+      "hoops": [
+        true,
+        true,
+        false
+      ],
+      "thread": true,
+      "slip": false
+    },
+    {
+      "time_s": 2.464,
+      "stage": "exit",
+      "active_fingers": 0,
+      "finger_force_sum": 0.0,
+      "touches": {
+        "thumb": 0.0,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": true,
+      "lift": true,
+      "hoops": [
+        true,
+        true,
+        false
+      ],
+      "thread": true,
+      "slip": false
+    },
+    {
+      "time_s": 2.496,
+      "stage": "exit",
+      "active_fingers": 0,
+      "finger_force_sum": 0.0,
+      "touches": {
+        "thumb": 0.0,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": true,
+      "lift": true,
+      "hoops": [
+        true,
+        true,
+        false
+      ],
+      "thread": true,
+      "slip": false
+    },
+    {
+      "time_s": 2.528,
+      "stage": "exit",
+      "active_fingers": 0,
+      "finger_force_sum": 0.0,
+      "touches": {
+        "thumb": 0.0,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": true,
+      "lift": true,
+      "hoops": [
+        true,
+        true,
+        false
+      ],
+      "thread": true,
+      "slip": false
+    },
+    {
+      "time_s": 2.56,
+      "stage": "exit",
+      "active_fingers": 0,
+      "finger_force_sum": 0.0,
+      "touches": {
+        "thumb": 0.0,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": true,
+      "lift": true,
+      "hoops": [
+        true,
+        true,
+        false
+      ],
+      "thread": true,
+      "slip": false
+    },
+    {
+      "time_s": 2.592,
+      "stage": "exit",
+      "active_fingers": 0,
+      "finger_force_sum": 0.0,
+      "touches": {
+        "thumb": 0.0,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": true,
+      "lift": true,
+      "hoops": [
+        true,
+        true,
+        false
+      ],
+      "thread": true,
+      "slip": false
+    },
+    {
+      "time_s": 2.624,
+      "stage": "exit",
+      "active_fingers": 0,
+      "finger_force_sum": 0.0,
+      "touches": {
+        "thumb": 0.0,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": true,
+      "lift": true,
+      "hoops": [
+        true,
+        true,
+        false
+      ],
+      "thread": true,
+      "slip": false
+    },
+    {
+      "time_s": 2.656,
+      "stage": "exit",
+      "active_fingers": 0,
+      "finger_force_sum": 0.0,
+      "touches": {
+        "thumb": 0.0,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": true,
+      "lift": true,
+      "hoops": [
+        true,
+        true,
+        false
+      ],
+      "thread": true,
+      "slip": false
+    },
+    {
+      "time_s": 2.688,
+      "stage": "exit",
+      "active_fingers": 0,
+      "finger_force_sum": 0.0,
+      "touches": {
+        "thumb": 0.0,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": true,
+      "lift": true,
+      "hoops": [
+        true,
+        true,
+        false
+      ],
+      "thread": true,
+      "slip": false
+    },
+    {
+      "time_s": 2.72,
+      "stage": "exit",
+      "active_fingers": 0,
+      "finger_force_sum": 0.0,
+      "touches": {
+        "thumb": 0.0,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": true,
+      "lift": true,
+      "hoops": [
+        true,
+        true,
+        false
+      ],
+      "thread": true,
+      "slip": false
+    },
+    {
+      "time_s": 2.752,
+      "stage": "exit",
+      "active_fingers": 0,
+      "finger_force_sum": 0.0,
+      "touches": {
+        "thumb": 0.0,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": true,
+      "lift": true,
+      "hoops": [
+        true,
+        true,
+        false
+      ],
+      "thread": true,
+      "slip": false
+    },
+    {
+      "time_s": 2.784,
+      "stage": "exit",
+      "active_fingers": 0,
+      "finger_force_sum": 0.0,
+      "touches": {
+        "thumb": 0.0,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": true,
+      "lift": true,
+      "hoops": [
+        true,
+        true,
+        true
+      ],
+      "thread": true,
+      "slip": false
+    },
+    {
+      "time_s": 2.816,
+      "stage": "exit",
+      "active_fingers": 0,
+      "finger_force_sum": 0.0,
+      "touches": {
+        "thumb": 0.0,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": true,
+      "lift": true,
+      "hoops": [
+        true,
+        true,
+        true
+      ],
+      "thread": true,
+      "slip": false
+    },
+    {
+      "time_s": 2.848,
+      "stage": "exit",
+      "active_fingers": 0,
+      "finger_force_sum": 0.0,
+      "touches": {
+        "thumb": 0.0,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": true,
+      "lift": true,
+      "hoops": [
+        true,
+        true,
+        true
+      ],
+      "thread": true,
+      "slip": false
+    },
+    {
+      "time_s": 2.88,
+      "stage": "draw",
+      "active_fingers": 0,
+      "finger_force_sum": 0.0,
+      "touches": {
+        "thumb": 0.0,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": true,
+      "lift": true,
+      "hoops": [
+        true,
+        true,
+        true
+      ],
+      "thread": true,
+      "slip": false
+    },
+    {
+      "time_s": 2.912,
+      "stage": "draw",
+      "active_fingers": 0,
+      "finger_force_sum": 0.0,
+      "touches": {
+        "thumb": 0.0,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": true,
+      "lift": true,
+      "hoops": [
+        true,
+        true,
+        true
+      ],
+      "thread": true,
+      "slip": false
+    },
+    {
+      "time_s": 2.944,
+      "stage": "draw",
+      "active_fingers": 0,
+      "finger_force_sum": 0.0,
+      "touches": {
+        "thumb": 0.0,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": true,
+      "lift": true,
+      "hoops": [
+        true,
+        true,
+        true
+      ],
+      "thread": true,
+      "slip": false
+    },
+    {
+      "time_s": 2.976,
+      "stage": "draw",
+      "active_fingers": 0,
+      "finger_force_sum": 0.0,
+      "touches": {
+        "thumb": 0.0,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": true,
+      "lift": true,
+      "hoops": [
+        true,
+        true,
+        true
+      ],
+      "thread": true,
+      "slip": false
+    },
+    {
+      "time_s": 3.008,
+      "stage": "draw",
+      "active_fingers": 0,
+      "finger_force_sum": 0.0,
+      "touches": {
+        "thumb": 0.0,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": true,
+      "lift": true,
+      "hoops": [
+        true,
+        true,
+        true
+      ],
+      "thread": true,
+      "slip": false
+    },
+    {
+      "time_s": 3.04,
+      "stage": "draw",
+      "active_fingers": 0,
+      "finger_force_sum": 0.0,
+      "touches": {
+        "thumb": 0.0,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": true,
+      "lift": true,
+      "hoops": [
+        true,
+        true,
+        true
+      ],
+      "thread": true,
+      "slip": false
+    },
+    {
+      "time_s": 3.072,
+      "stage": "draw",
+      "active_fingers": 0,
+      "finger_force_sum": 0.0,
+      "touches": {
+        "thumb": 0.0,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": true,
+      "lift": true,
+      "hoops": [
+        true,
+        true,
+        true
+      ],
+      "thread": true,
+      "slip": false
+    },
+    {
+      "time_s": 3.104,
+      "stage": "draw",
+      "active_fingers": 0,
+      "finger_force_sum": 0.0,
+      "touches": {
+        "thumb": 0.0,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": true,
+      "lift": true,
+      "hoops": [
+        true,
+        true,
+        true
+      ],
+      "thread": true,
+      "slip": false
+    },
+    {
+      "time_s": 3.136,
+      "stage": "draw",
+      "active_fingers": 0,
+      "finger_force_sum": 0.0,
+      "touches": {
+        "thumb": 0.0,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": true,
+      "lift": true,
+      "hoops": [
+        true,
+        true,
+        true
+      ],
+      "thread": true,
+      "slip": false
+    },
+    {
+      "time_s": 3.168,
+      "stage": "draw",
+      "active_fingers": 0,
+      "finger_force_sum": 0.0,
+      "touches": {
+        "thumb": 0.0,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": true,
+      "lift": true,
+      "hoops": [
+        true,
+        true,
+        true
+      ],
+      "thread": true,
+      "slip": false
+    },
+    {
+      "time_s": 3.2,
+      "stage": "draw",
+      "active_fingers": 0,
+      "finger_force_sum": 0.0,
+      "touches": {
+        "thumb": 0.0,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": true,
+      "lift": true,
+      "hoops": [
+        true,
+        true,
+        true
+      ],
+      "thread": true,
+      "slip": false
+    },
+    {
+      "time_s": 3.232,
+      "stage": "draw",
+      "active_fingers": 0,
+      "finger_force_sum": 0.0,
+      "touches": {
+        "thumb": 0.0,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": true,
+      "lift": true,
+      "hoops": [
+        true,
+        true,
+        true
+      ],
+      "thread": true,
+      "slip": false
+    },
+    {
+      "time_s": 3.264,
+      "stage": "knot",
+      "active_fingers": 0,
+      "finger_force_sum": 0.0,
+      "touches": {
+        "thumb": 0.0,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": true,
+      "lift": true,
+      "hoops": [
+        true,
+        true,
+        true
+      ],
+      "thread": true,
+      "slip": false
+    },
+    {
+      "time_s": 3.296,
+      "stage": "knot",
+      "active_fingers": 0,
+      "finger_force_sum": 0.0,
+      "touches": {
+        "thumb": 0.0,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": true,
+      "lift": true,
+      "hoops": [
+        true,
+        true,
+        true
+      ],
+      "thread": true,
+      "slip": true
+    },
+    {
+      "time_s": 3.328,
+      "stage": "knot",
+      "active_fingers": 0,
+      "finger_force_sum": 0.0,
+      "touches": {
+        "thumb": 0.0,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": true,
+      "lift": true,
+      "hoops": [
+        true,
+        true,
+        true
+      ],
+      "thread": true,
+      "slip": true
+    },
+    {
+      "time_s": 3.36,
+      "stage": "knot",
+      "active_fingers": 0,
+      "finger_force_sum": 0.0,
+      "touches": {
+        "thumb": 0.0,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": true,
+      "lift": true,
+      "hoops": [
+        true,
+        true,
+        true
+      ],
+      "thread": true,
+      "slip": true
+    },
+    {
+      "time_s": 3.392,
+      "stage": "knot",
+      "active_fingers": 0,
+      "finger_force_sum": 0.0,
+      "touches": {
+        "thumb": 0.0,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": true,
+      "lift": true,
+      "hoops": [
+        true,
+        true,
+        true
+      ],
+      "thread": true,
+      "slip": true
+    },
+    {
+      "time_s": 3.424,
+      "stage": "knot",
+      "active_fingers": 0,
+      "finger_force_sum": 0.0,
+      "touches": {
+        "thumb": 0.0,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": true,
+      "lift": true,
+      "hoops": [
+        true,
+        true,
+        true
+      ],
+      "thread": true,
+      "slip": true
+    },
+    {
+      "time_s": 3.456,
+      "stage": "knot",
+      "active_fingers": 1,
+      "finger_force_sum": 4999.29474,
+      "touches": {
+        "thumb": 0.0,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 4999.29474
+      },
+      "grasp": true,
+      "lift": true,
+      "hoops": [
+        true,
+        true,
+        true
+      ],
+      "thread": true,
+      "slip": true
+    },
+    {
+      "time_s": 3.488,
+      "stage": "knot",
+      "active_fingers": 0,
+      "finger_force_sum": 0.0,
+      "touches": {
+        "thumb": 0.0,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": true,
+      "lift": true,
+      "hoops": [
+        true,
+        true,
+        true
+      ],
+      "thread": true,
+      "slip": true
+    },
+    {
+      "time_s": 3.52,
+      "stage": "knot",
+      "active_fingers": 2,
+      "finger_force_sum": 43798.91904,
+      "touches": {
+        "thumb": 16778.01479,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 27020.90425
+      },
+      "grasp": true,
+      "lift": true,
+      "hoops": [
+        true,
+        true,
+        true
+      ],
+      "thread": true,
+      "slip": true
+    },
+    {
+      "time_s": 3.552,
+      "stage": "knot",
+      "active_fingers": 1,
+      "finger_force_sum": 18530.8795,
+      "touches": {
+        "thumb": 18530.8795,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": true,
+      "lift": true,
+      "hoops": [
+        true,
+        true,
+        true
+      ],
+      "thread": true,
+      "slip": true
+    },
+    {
+      "time_s": 3.584,
+      "stage": "knot",
+      "active_fingers": 1,
+      "finger_force_sum": 18324.56687,
+      "touches": {
+        "thumb": 18324.56687,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": true,
+      "lift": true,
+      "hoops": [
+        true,
+        true,
+        true
+      ],
+      "thread": true,
+      "slip": true
+    },
+    {
+      "time_s": 3.616,
+      "stage": "verify",
+      "active_fingers": 2,
+      "finger_force_sum": 40065.87616,
+      "touches": {
+        "thumb": 18697.5073,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 21368.36886
+      },
+      "grasp": true,
+      "lift": true,
+      "hoops": [
+        true,
+        true,
+        true
+      ],
+      "thread": true,
+      "slip": true
+    },
+    {
+      "time_s": 3.648,
+      "stage": "verify",
+      "active_fingers": 1,
+      "finger_force_sum": 16449.11226,
+      "touches": {
+        "thumb": 16449.11226,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": true,
+      "lift": true,
+      "hoops": [
+        true,
+        true,
+        true
+      ],
+      "thread": true,
+      "slip": true
+    },
+    {
+      "time_s": 3.68,
+      "stage": "verify",
+      "active_fingers": 1,
+      "finger_force_sum": 12405.16322,
+      "touches": {
+        "thumb": 12405.16322,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": true,
+      "lift": true,
+      "hoops": [
+        true,
+        true,
+        true
+      ],
+      "thread": true,
+      "slip": true
+    },
+    {
+      "time_s": 3.712,
+      "stage": "verify",
+      "active_fingers": 1,
+      "finger_force_sum": 9086.75209,
+      "touches": {
+        "thumb": 9086.75209,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": true,
+      "lift": true,
+      "hoops": [
+        true,
+        true,
+        true
+      ],
+      "thread": true,
+      "slip": true
+    },
+    {
+      "time_s": 3.744,
+      "stage": "verify",
+      "active_fingers": 0,
+      "finger_force_sum": 0.0,
+      "touches": {
+        "thumb": 0.0,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": true,
+      "lift": true,
+      "hoops": [
+        true,
+        true,
+        true
+      ],
+      "thread": true,
+      "slip": true
+    },
+    {
+      "time_s": 3.776,
+      "stage": "verify",
+      "active_fingers": 0,
+      "finger_force_sum": 0.0,
+      "touches": {
+        "thumb": 0.0,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": true,
+      "lift": true,
+      "hoops": [
+        true,
+        true,
+        true
+      ],
+      "thread": true,
+      "slip": true
+    },
+    {
+      "time_s": 3.808,
+      "stage": "verify",
+      "active_fingers": 1,
+      "finger_force_sum": 3721.04636,
+      "touches": {
+        "thumb": 0.0,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 3721.04636
+      },
+      "grasp": true,
+      "lift": true,
+      "hoops": [
+        true,
+        true,
+        true
+      ],
+      "thread": true,
+      "slip": true
+    },
+    {
+      "time_s": 3.84,
+      "stage": "export",
+      "active_fingers": 1,
+      "finger_force_sum": 3349.00062,
+      "touches": {
+        "thumb": 0.0,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 3349.00062
+      },
+      "grasp": true,
+      "lift": true,
+      "hoops": [
+        true,
+        true,
+        true
+      ],
+      "thread": true,
+      "slip": true
+    },
+    {
+      "time_s": 3.872,
+      "stage": "export",
+      "active_fingers": 0,
+      "finger_force_sum": 0.0,
+      "touches": {
+        "thumb": 0.0,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": true,
+      "lift": true,
+      "hoops": [
+        true,
+        true,
+        true
+      ],
+      "thread": true,
+      "slip": true
+    },
+    {
+      "time_s": 3.904,
+      "stage": "export",
+      "active_fingers": 0,
+      "finger_force_sum": 0.0,
+      "touches": {
+        "thumb": 0.0,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": true,
+      "lift": true,
+      "hoops": [
+        true,
+        true,
+        true
+      ],
+      "thread": true,
+      "slip": true
+    },
+    {
+      "time_s": 3.936,
+      "stage": "export",
+      "active_fingers": 0,
+      "finger_force_sum": 0.0,
+      "touches": {
+        "thumb": 0.0,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": true,
+      "lift": true,
+      "hoops": [
+        true,
+        true,
+        true
+      ],
+      "thread": true,
+      "slip": true
+    },
+    {
+      "time_s": 3.968,
+      "stage": "export",
+      "active_fingers": 0,
+      "finger_force_sum": 0.0,
+      "touches": {
+        "thumb": 0.0,
+        "index": 0.0,
+        "middle": 0.0,
+        "ring": 0.0,
+        "little": 0.0
+      },
+      "grasp": true,
+      "lift": true,
+      "hoops": [
+        true,
+        true,
+        true
+      ],
+      "thread": true,
+      "slip": true
+    }
+  ]
+}

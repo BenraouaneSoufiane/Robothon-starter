@@ -1,0 +1,26 @@
+{
+  "entrypoints": {
+    "demo": "python3 submissions/micro_suture_lab/run_micro_suture_lab.py demo",
+    "quick": "python3 submissions/micro_suture_lab/run_micro_suture_lab.py --quick",
+    "eval": "python3 submissions/micro_suture_lab/run_micro_suture_lab.py eval",
+    "plots": "python3 submissions/micro_suture_lab/make_plots.py"
+  },
+  "scene": "/root/v3/Robothon-starter/submissions/micro_suture_lab/micro_suture_scene.xml",
+  "artifacts": [
+    "artifacts/demo.mp4",
+    "artifacts/quick_demo.mp4",
+    "artifacts/trajectory.json",
+    "artifacts/report.json",
+    "artifacts/evaluation.json",
+    "artifacts/contact_timeline.json",
+    "artifacts/policy_card.json",
+    "artifacts/submission_manifest.json"
+  ],
+  "last_demo": {
+    "duration_s": 4.0,
+    "dt_s": 0.001,
+    "fps": 20,
+    "render_backend": "schematic(FatalError)",
+    "success": true
+  }
+}

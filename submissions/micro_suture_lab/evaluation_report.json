@@ -1,0 +1,120 @@
+{
+  "project": "Micro Suture Lab",
+  "purpose": "Rubric evidence index for FFAI Robothon 2026 judging",
+  "evidence_policy": "Scores are intentionally omitted. Judges should regenerate artifacts with make quick, make eval, make plots, and make test.",
+  "criteria": {
+    "runnability": {
+      "evidence": [
+        "README.md#reproducible-commands",
+        "run.sh",
+        "Makefile",
+        "requirements.txt",
+        "tests/test_micro_suture_lab.py"
+      ],
+      "claims": [
+        "single Python entrypoint with quick and full demo modes",
+        "Make targets for demo, eval, plots, tuning, and tests",
+        "pinned Python dependencies",
+        "core artifacts regenerated from the runner"
+      ]
+    },
+    "depth_of_mujoco_use": {
+      "evidence": [
+        "micro_suture_scene.xml",
+        "run_micro_suture_lab.py",
+        "artifacts/report.json",
+        "artifacts/trajectory.json"
+      ],
+      "claims": [
+        "elliptic friction cones, multiccd, condim 6 pad contacts, and pair friction overrides",
+        "free-joint needle and suture objects with gravity and frictional manipulation",
+        "frame-position, joint-position, and touch sensors consumed by controller and monitors",
+        "real qvel impulse disturbance during knot-stage slip recovery"
+      ]
+    },
+    "task_design": {
+      "evidence": [
+        "README.md#task-sequence",
+        "artifacts/report.json",
+        "artifacts/trajectory.json",
+        "artifacts/contact_timeline.json"
+      ],
+      "claims": [
+        "long-horizon suturing workflow rather than a reach-only demo",
+        "three hoop passes, thread draw, knot cinch, and verification press",
+        "explicit stage labels and machine-readable success signals"
+      ]
+    },
+    "control": {
+      "evidence": [
+        "run_micro_suture_lab.py",
+        "tune_gains.py",
+        "artifacts/policy_card.json",
+        "artifacts/evaluation.json",
+        "artifacts/best_gains.json"
+      ],
+      "claims": [
+        "stage planner plus bounded PID residual feedback",
+        "anti-windup integral clipping and correction clipping",
+        "open-loop ablation via use_feedback=false",
+        "optional CMA-ES gain tuning over PID gains"
+      ]
+    },
+    "dexterous_manipulation": {
+      "evidence": [
+        "micro_suture_scene.xml",
+        "artifacts/contact_timeline.json",
+        "artifacts/trajectory.json",
+        "tests/test_micro_suture_lab.py"
+      ],
+      "claims": [
+        "ten independently actuated finger joints",
+        "five fingertip touch channels",
+        "friction-only needle grasp with no equality weld on the grasp",
+        "lift, hoop passage, thread attachment, slip recovery, and button press signals"
+      ]
+    },
+    "engineering_quality": {
+      "evidence": [
+        "Makefile",
+        "pyproject.toml",
+        "requirements.txt",
+        "tests/test_micro_suture_lab.py",
+        "make_plots.py"
+      ],
+      "claims": [
+        "focused tests cover model inventory, rollout signals, evaluation, and plots",
+        "diagnostic plots generated from JSON artifacts",
+        "artifacts are produced by code rather than manually edited score claims"
+      ]
+    },
+    "presentation": {
+      "evidence": [
+        "artifacts/demo.mp4",
+        "artifacts/quick_demo.mp4",
+        "artifacts/trajectory_diagnostics.png",
+        "artifacts/evaluation_summary.png",
+        "artifacts/gain_tuning.png",
+        "README.md"
+      ],
+      "claims": [
+        "MuJoCo renderer is used when available and render backend is reported",
+        "trajectory diagnostics show palm error, feedback correction, touch forces, needle height, and hoop progress",
+        "evaluation plot compares endpoint error and success rate for open-loop and closed-loop rollouts"
+      ]
+    },
+    "innovation": {
+      "evidence": [
+        "README.md",
+        "micro_suture_scene.xml",
+        "run_micro_suture_lab.py",
+        "tune_gains.py"
+      ],
+      "claims": [
+        "micro-surgical needle-and-suture workflow",
+        "frictional five-finger grasp with slip recovery",
+        "paired robustness ablation and optional gain optimization"
+      ]
+    }
+  }
+}

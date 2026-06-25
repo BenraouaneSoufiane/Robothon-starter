@@ -1,0 +1,53 @@
+{
+  "project": "Micro Suture Lab v5",
+  "render_backend": "schematic(FatalError)",
+  "duration_s": 4.0,
+  "dt_s": 0.001,
+  "fps": 20,
+  "model_stats": {
+    "nu": 15,
+    "nq": 29,
+    "nv": 27,
+    "nsensor": 21,
+    "ngeom": 30,
+    "neq": 2,
+    "ncontact_pair": 7
+  },
+  "final": {
+    "grasp_confirmed": true,
+    "lift_confirmed": true,
+    "hoops_passed": [
+      true,
+      true,
+      true
+    ],
+    "thread_attached": true,
+    "grasp_assist_active": true,
+    "slip_consumed": true,
+    "button_depth_m": 0.03,
+    "verification_pressed": true,
+    "endpoint_error_m": 0.0,
+    "final_palm_xyz": [
+      0.27885,
+      -0.19339,
+      0.61104
+    ],
+    "task_success": true,
+    "task_score": 1.0
+  },
+  "closed_loop_metrics": {
+    "median_palm_error_m": 0.03742,
+    "p95_palm_error_m": 0.19524,
+    "mean_correction_magnitude_m": 0.03528,
+    "samples": 1000
+  },
+  "gains": {
+    "kp_xy": 1.1,
+    "kp_z": 1.0,
+    "ki_xy": 0.35,
+    "ki_z": 0.25,
+    "kd_xy": 0.08,
+    "kd_z": 0.08
+  },
+  "success": true
+}

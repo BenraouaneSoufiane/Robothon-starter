@@ -1,0 +1,44 @@
+{
+  "controller": "stage_planner_plus_bounded_pid_residual",
+  "version": "v5",
+  "feedback_channels": [
+    "palm frame-position error",
+    "fingertip touch sensors",
+    "needle and hoop frame-position sensors",
+    "button joint-position sensor"
+  ],
+  "actuated_channels": [
+    "x_servo",
+    "y_servo",
+    "z_servo",
+    "wrist_servo",
+    "thumb_opp_servo",
+    "thumb_distal_servo",
+    "index_flex_servo",
+    "index_distal_servo",
+    "middle_flex_servo",
+    "middle_distal_servo",
+    "ring_flex_servo",
+    "ring_distal_servo",
+    "little_flex_servo",
+    "little_distal_servo",
+    "button_servo"
+  ],
+  "gains": {
+    "kp_xy": 1.1,
+    "kp_z": 1.0,
+    "ki_xy": 0.35,
+    "ki_z": 0.25,
+    "kd_xy": 0.08,
+    "kd_z": 0.08
+  },
+  "anti_windup_integral_clip_m": 0.025,
+  "residual_clip_m": 0.03,
+  "closed_loop_metrics": {
+    "median_palm_error_m": 0.03742,
+    "p95_palm_error_m": 0.19524,
+    "mean_correction_magnitude_m": 0.03528,
+    "samples": 1000
+  },
+  "final_task_success": true
+}

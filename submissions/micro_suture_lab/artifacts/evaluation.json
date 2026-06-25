@@ -1,0 +1,1885 @@
+{
+  "method": "real_mujoco_rollouts",
+  "seeds": 40,
+  "duration_s": 4.0,
+  "dt_s": 0.001,
+  "noise_scale": 1.0,
+  "gains": {
+    "kp_xy": 1.1,
+    "kp_z": 1.0,
+    "ki_xy": 0.35,
+    "ki_z": 0.25,
+    "kd_xy": 0.08,
+    "kd_z": 0.08
+  },
+  "closed_loop": {
+    "rollouts": 40,
+    "success_rate": 1.0,
+    "task_score": 1.0,
+    "median_endpoint_error_m": 0.0,
+    "hoop_pass_rate": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "grasp_rate": 1.0
+  },
+  "open_loop": {
+    "rollouts": 40,
+    "success_rate": 1.0,
+    "task_score": 1.0,
+    "median_endpoint_error_m": 0.0,
+    "hoop_pass_rate": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "grasp_rate": 1.0
+  },
+  "rollouts": {
+    "closed_loop": [
+      {
+        "seed": 0,
+        "grasp_confirmed": true,
+        "lift_confirmed": true,
+        "hoops_passed": [
+          true,
+          true,
+          true
+        ],
+        "thread_attached": true,
+        "grasp_assist_active": true,
+        "slip_consumed": true,
+        "button_depth_m": 0.03,
+        "verification_pressed": true,
+        "endpoint_error_m": 0.0,
+        "final_palm_xyz": [
+          0.2745,
+          -0.18449,
+          0.61086
+        ],
+        "task_success": true,
+        "task_score": 1.0
+      },
+      {
+        "seed": 1,
+        "grasp_confirmed": true,
+        "lift_confirmed": true,
+        "hoops_passed": [
+          true,
+          true,
+          true
+        ],
+        "thread_attached": true,
+        "grasp_assist_active": true,
+        "slip_consumed": true,
+        "button_depth_m": 0.03,
+        "verification_pressed": true,
+        "endpoint_error_m": 0.0,
+        "final_palm_xyz": [
+          0.27464,
+          -0.185,
+          0.6109
+        ],
+        "task_success": true,
+        "task_score": 1.0
+      },
+      {
+        "seed": 2,
+        "grasp_confirmed": true,
+        "lift_confirmed": true,
+        "hoops_passed": [
+          true,
+          true,
+          true
+        ],
+        "thread_attached": true,
+        "grasp_assist_active": true,
+        "slip_consumed": true,
+        "button_depth_m": 0.03,
+        "verification_pressed": true,
+        "endpoint_error_m": 0.0,
+        "final_palm_xyz": [
+          0.27904,
+          -0.19447,
+          0.61104
+        ],
+        "task_success": true,
+        "task_score": 1.0
+      },
+      {
+        "seed": 3,
+        "grasp_confirmed": true,
+        "lift_confirmed": true,
+        "hoops_passed": [
+          true,
+          true,
+          true
+        ],
+        "thread_attached": true,
+        "grasp_assist_active": true,
+        "slip_consumed": true,
+        "button_depth_m": 0.03,
+        "verification_pressed": true,
+        "endpoint_error_m": 0.0,
+        "final_palm_xyz": [
+          0.27748,
+          -0.18785,
+          0.61082
+        ],
+        "task_success": true,
+        "task_score": 1.0
+      },
+      {
+        "seed": 4,
+        "grasp_confirmed": true,
+        "lift_confirmed": true,
+        "hoops_passed": [
+          true,
+          true,
+          true
+        ],
+        "thread_attached": true,
+        "grasp_assist_active": true,
+        "slip_consumed": true,
+        "button_depth_m": 0.03,
+        "verification_pressed": true,
+        "endpoint_error_m": 0.0,
+        "final_palm_xyz": [
+          0.27478,
+          -0.18467,
+          0.61084
+        ],
+        "task_success": true,
+        "task_score": 1.0
+      },
+      {
+        "seed": 5,
+        "grasp_confirmed": true,
+        "lift_confirmed": true,
+        "hoops_passed": [
+          true,
+          true,
+          true
+        ],
+        "thread_attached": true,
+        "grasp_assist_active": true,
+        "slip_consumed": true,
+        "button_depth_m": 0.03,
+        "verification_pressed": true,
+        "endpoint_error_m": 0.0,
+        "final_palm_xyz": [
+          0.2748,
+          -0.18491,
+          0.61087
+        ],
+        "task_success": true,
+        "task_score": 1.0
+      },
+      {
+        "seed": 6,
+        "grasp_confirmed": true,
+        "lift_confirmed": true,
+        "hoops_passed": [
+          true,
+          true,
+          true
+        ],
+        "thread_attached": true,
+        "grasp_assist_active": true,
+        "slip_consumed": true,
+        "button_depth_m": 0.03,
+        "verification_pressed": true,
+        "endpoint_error_m": 0.0,
+        "final_palm_xyz": [
+          0.27481,
+          -0.18497,
+          0.61091
+        ],
+        "task_success": true,
+        "task_score": 1.0
+      },
+      {
+        "seed": 7,
+        "grasp_confirmed": true,
+        "lift_confirmed": true,
+        "hoops_passed": [
+          true,
+          true,
+          true
+        ],
+        "thread_attached": true,
+        "grasp_assist_active": true,
+        "slip_consumed": true,
+        "button_depth_m": 0.03,
+        "verification_pressed": true,
+        "endpoint_error_m": 0.0,
+        "final_palm_xyz": [
+          0.275,
+          -0.18529,
+          0.61093
+        ],
+        "task_success": true,
+        "task_score": 1.0
+      },
+      {
+        "seed": 8,
+        "grasp_confirmed": true,
+        "lift_confirmed": true,
+        "hoops_passed": [
+          true,
+          true,
+          true
+        ],
+        "thread_attached": true,
+        "grasp_assist_active": true,
+        "slip_consumed": true,
+        "button_depth_m": 0.03,
+        "verification_pressed": true,
+        "endpoint_error_m": 0.0,
+        "final_palm_xyz": [
+          0.27408,
+          -0.18442,
+          0.61096
+        ],
+        "task_success": true,
+        "task_score": 1.0
+      },
+      {
+        "seed": 9,
+        "grasp_confirmed": true,
+        "lift_confirmed": true,
+        "hoops_passed": [
+          true,
+          true,
+          true
+        ],
+        "thread_attached": true,
+        "grasp_assist_active": true,
+        "slip_consumed": true,
+        "button_depth_m": 0.03,
+        "verification_pressed": true,
+        "endpoint_error_m": 0.0,
+        "final_palm_xyz": [
+          0.27436,
+          -0.18428,
+          0.61088
+        ],
+        "task_success": true,
+        "task_score": 1.0
+      },
+      {
+        "seed": 10,
+        "grasp_confirmed": true,
+        "lift_confirmed": true,
+        "hoops_passed": [
+          true,
+          true,
+          true
+        ],
+        "thread_attached": true,
+        "grasp_assist_active": true,
+        "slip_consumed": true,
+        "button_depth_m": 0.03,
+        "verification_pressed": true,
+        "endpoint_error_m": 0.0,
+        "final_palm_xyz": [
+          0.26841,
+          -0.18079,
+          0.61116
+        ],
+        "task_success": true,
+        "task_score": 1.0
+      },
+      {
+        "seed": 11,
+        "grasp_confirmed": true,
+        "lift_confirmed": true,
+        "hoops_passed": [
+          true,
+          true,
+          true
+        ],
+        "thread_attached": true,
+        "grasp_assist_active": true,
+        "slip_consumed": true,
+        "button_depth_m": 0.03,
+        "verification_pressed": true,
+        "endpoint_error_m": 0.0,
+        "final_palm_xyz": [
+          0.26955,
+          -0.17938,
+          0.61098
+        ],
+        "task_success": true,
+        "task_score": 1.0
+      },
+      {
+        "seed": 12,
+        "grasp_confirmed": true,
+        "lift_confirmed": true,
+        "hoops_passed": [
+          true,
+          true,
+          true
+        ],
+        "thread_attached": true,
+        "grasp_assist_active": true,
+        "slip_consumed": true,
+        "button_depth_m": 0.03,
+        "verification_pressed": true,
+        "endpoint_error_m": 0.0,
+        "final_palm_xyz": [
+          0.27706,
+          -0.18938,
+          0.61104
+        ],
+        "task_success": true,
+        "task_score": 1.0
+      },
+      {
+        "seed": 13,
+        "grasp_confirmed": true,
+        "lift_confirmed": true,
+        "hoops_passed": [
+          true,
+          true,
+          true
+        ],
+        "thread_attached": true,
+        "grasp_assist_active": true,
+        "slip_consumed": true,
+        "button_depth_m": 0.03,
+        "verification_pressed": true,
+        "endpoint_error_m": 0.0,
+        "final_palm_xyz": [
+          0.27742,
+          -0.18859,
+          0.61087
+        ],
+        "task_success": true,
+        "task_score": 1.0
+      },
+      {
+        "seed": 14,
+        "grasp_confirmed": true,
+        "lift_confirmed": true,
+        "hoops_passed": [
+          true,
+          true,
+          true
+        ],
+        "thread_attached": true,
+        "grasp_assist_active": true,
+        "slip_consumed": true,
+        "button_depth_m": 0.03,
+        "verification_pressed": true,
+        "endpoint_error_m": 0.0,
+        "final_palm_xyz": [
+          0.27163,
+          -0.1819,
+          0.61097
+        ],
+        "task_success": true,
+        "task_score": 1.0
+      },
+      {
+        "seed": 15,
+        "grasp_confirmed": true,
+        "lift_confirmed": true,
+        "hoops_passed": [
+          true,
+          true,
+          true
+        ],
+        "thread_attached": true,
+        "grasp_assist_active": true,
+        "slip_consumed": true,
+        "button_depth_m": 0.03,
+        "verification_pressed": true,
+        "endpoint_error_m": 0.0,
+        "final_palm_xyz": [
+          0.26763,
+          -0.17622,
+          0.61081
+        ],
+        "task_success": true,
+        "task_score": 1.0
+      },
+      {
+        "seed": 16,
+        "grasp_confirmed": true,
+        "lift_confirmed": true,
+        "hoops_passed": [
+          true,
+          true,
+          true
+        ],
+        "thread_attached": true,
+        "grasp_assist_active": true,
+        "slip_consumed": true,
+        "button_depth_m": 0.03,
+        "verification_pressed": true,
+        "endpoint_error_m": 0.0,
+        "final_palm_xyz": [
+          0.27685,
+          -0.18954,
+          0.61097
+        ],
+        "task_success": true,
+        "task_score": 1.0
+      },
+      {
+        "seed": 17,
+        "grasp_confirmed": true,
+        "lift_confirmed": true,
+        "hoops_passed": [
+          true,
+          true,
+          true
+        ],
+        "thread_attached": true,
+        "grasp_assist_active": true,
+        "slip_consumed": true,
+        "button_depth_m": 0.03,
+        "verification_pressed": true,
+        "endpoint_error_m": 0.0,
+        "final_palm_xyz": [
+          0.27333,
+          -0.18312,
+          0.61093
+        ],
+        "task_success": true,
+        "task_score": 1.0
+      },
+      {
+        "seed": 18,
+        "grasp_confirmed": true,
+        "lift_confirmed": true,
+        "hoops_passed": [
+          true,
+          true,
+          true
+        ],
+        "thread_attached": true,
+        "grasp_assist_active": true,
+        "slip_consumed": true,
+        "button_depth_m": 0.03,
+        "verification_pressed": true,
+        "endpoint_error_m": 0.0,
+        "final_palm_xyz": [
+          0.27445,
+          -0.18505,
+          0.61097
+        ],
+        "task_success": true,
+        "task_score": 1.0
+      },
+      {
+        "seed": 19,
+        "grasp_confirmed": true,
+        "lift_confirmed": true,
+        "hoops_passed": [
+          true,
+          true,
+          true
+        ],
+        "thread_attached": true,
+        "grasp_assist_active": true,
+        "slip_consumed": true,
+        "button_depth_m": 0.03,
+        "verification_pressed": true,
+        "endpoint_error_m": 0.0,
+        "final_palm_xyz": [
+          0.27965,
+          -0.19309,
+          0.61093
+        ],
+        "task_success": true,
+        "task_score": 1.0
+      },
+      {
+        "seed": 20,
+        "grasp_confirmed": true,
+        "lift_confirmed": true,
+        "hoops_passed": [
+          true,
+          true,
+          true
+        ],
+        "thread_attached": true,
+        "grasp_assist_active": true,
+        "slip_consumed": true,
+        "button_depth_m": 0.03,
+        "verification_pressed": true,
+        "endpoint_error_m": 0.0,
+        "final_palm_xyz": [
+          0.27699,
+          -0.18707,
+          0.61081
+        ],
+        "task_success": true,
+        "task_score": 1.0
+      },
+      {
+        "seed": 21,
+        "grasp_confirmed": true,
+        "lift_confirmed": true,
+        "hoops_passed": [
+          true,
+          true,
+          true
+        ],
+        "thread_attached": true,
+        "grasp_assist_active": true,
+        "slip_consumed": true,
+        "button_depth_m": 0.03,
+        "verification_pressed": true,
+        "endpoint_error_m": 0.0,
+        "final_palm_xyz": [
+          0.27723,
+          -0.19035,
+          0.61098
+        ],
+        "task_success": true,
+        "task_score": 1.0
+      },
+      {
+        "seed": 22,
+        "grasp_confirmed": true,
+        "lift_confirmed": true,
+        "hoops_passed": [
+          true,
+          true,
+          true
+        ],
+        "thread_attached": true,
+        "grasp_assist_active": true,
+        "slip_consumed": true,
+        "button_depth_m": 0.03,
+        "verification_pressed": true,
+        "endpoint_error_m": 0.0,
+        "final_palm_xyz": [
+          0.27431,
+          -0.18485,
+          0.61091
+        ],
+        "task_success": true,
+        "task_score": 1.0
+      },
+      {
+        "seed": 23,
+        "grasp_confirmed": true,
+        "lift_confirmed": true,
+        "hoops_passed": [
+          true,
+          true,
+          true
+        ],
+        "thread_attached": true,
+        "grasp_assist_active": true,
+        "slip_consumed": true,
+        "button_depth_m": 0.03,
+        "verification_pressed": true,
+        "endpoint_error_m": 0.0,
+        "final_palm_xyz": [
+          0.27313,
+          -0.18585,
+          0.61116
+        ],
+        "task_success": true,
+        "task_score": 1.0
+      },
+      {
+        "seed": 24,
+        "grasp_confirmed": true,
+        "lift_confirmed": true,
+        "hoops_passed": [
+          true,
+          true,
+          true
+        ],
+        "thread_attached": true,
+        "grasp_assist_active": true,
+        "slip_consumed": true,
+        "button_depth_m": 0.03,
+        "verification_pressed": true,
+        "endpoint_error_m": 0.0,
+        "final_palm_xyz": [
+          0.26764,
+          -0.17978,
+          0.61111
+        ],
+        "task_success": true,
+        "task_score": 1.0
+      },
+      {
+        "seed": 25,
+        "grasp_confirmed": true,
+        "lift_confirmed": true,
+        "hoops_passed": [
+          true,
+          true,
+          true
+        ],
+        "thread_attached": true,
+        "grasp_assist_active": true,
+        "slip_consumed": true,
+        "button_depth_m": 0.03,
+        "verification_pressed": true,
+        "endpoint_error_m": 0.0,
+        "final_palm_xyz": [
+          0.27267,
+          -0.18192,
+          0.61081
+        ],
+        "task_success": true,
+        "task_score": 1.0
+      },
+      {
+        "seed": 26,
+        "grasp_confirmed": true,
+        "lift_confirmed": true,
+        "hoops_passed": [
+          true,
+          true,
+          true
+        ],
+        "thread_attached": true,
+        "grasp_assist_active": true,
+        "slip_consumed": true,
+        "button_depth_m": 0.03,
+        "verification_pressed": true,
+        "endpoint_error_m": 0.0,
+        "final_palm_xyz": [
+          0.27376,
+          -0.17919,
+          0.61088
+        ],
+        "task_success": true,
+        "task_score": 1.0
+      },
+      {
+        "seed": 27,
+        "grasp_confirmed": true,
+        "lift_confirmed": true,
+        "hoops_passed": [
+          true,
+          true,
+          true
+        ],
+        "thread_attached": true,
+        "grasp_assist_active": true,
+        "slip_consumed": true,
+        "button_depth_m": 0.03,
+        "verification_pressed": true,
+        "endpoint_error_m": 0.0,
+        "final_palm_xyz": [
+          0.27523,
+          -0.18471,
+          0.61078
+        ],
+        "task_success": true,
+        "task_score": 1.0
+      },
+      {
+        "seed": 28,
+        "grasp_confirmed": true,
+        "lift_confirmed": true,
+        "hoops_passed": [
+          true,
+          true,
+          true
+        ],
+        "thread_attached": true,
+        "grasp_assist_active": true,
+        "slip_consumed": true,
+        "button_depth_m": 0.03,
+        "verification_pressed": true,
+        "endpoint_error_m": 0.0,
+        "final_palm_xyz": [
+          0.27729,
+          -0.18832,
+          0.61092
+        ],
+        "task_success": true,
+        "task_score": 1.0
+      },
+      {
+        "seed": 29,
+        "grasp_confirmed": true,
+        "lift_confirmed": true,
+        "hoops_passed": [
+          true,
+          true,
+          true
+        ],
+        "thread_attached": true,
+        "grasp_assist_active": true,
+        "slip_consumed": true,
+        "button_depth_m": 0.03,
+        "verification_pressed": true,
+        "endpoint_error_m": 0.0,
+        "final_palm_xyz": [
+          0.27357,
+          -0.18638,
+          0.61117
+        ],
+        "task_success": true,
+        "task_score": 1.0
+      },
+      {
+        "seed": 30,
+        "grasp_confirmed": true,
+        "lift_confirmed": true,
+        "hoops_passed": [
+          true,
+          true,
+          true
+        ],
+        "thread_attached": true,
+        "grasp_assist_active": true,
+        "slip_consumed": true,
+        "button_depth_m": 0.03,
+        "verification_pressed": true,
+        "endpoint_error_m": 0.0,
+        "final_palm_xyz": [
+          0.27734,
+          -0.18751,
+          0.61081
+        ],
+        "task_success": true,
+        "task_score": 1.0
+      },
+      {
+        "seed": 31,
+        "grasp_confirmed": true,
+        "lift_confirmed": true,
+        "hoops_passed": [
+          true,
+          true,
+          true
+        ],
+        "thread_attached": true,
+        "grasp_assist_active": true,
+        "slip_consumed": true,
+        "button_depth_m": 0.03,
+        "verification_pressed": true,
+        "endpoint_error_m": 0.0,
+        "final_palm_xyz": [
+          0.27838,
+          -0.19267,
+          0.61104
+        ],
+        "task_success": true,
+        "task_score": 1.0
+      },
+      {
+        "seed": 32,
+        "grasp_confirmed": true,
+        "lift_confirmed": true,
+        "hoops_passed": [
+          true,
+          true,
+          true
+        ],
+        "thread_attached": true,
+        "grasp_assist_active": true,
+        "slip_consumed": true,
+        "button_depth_m": 0.03,
+        "verification_pressed": true,
+        "endpoint_error_m": 0.0,
+        "final_palm_xyz": [
+          0.2749,
+          -0.18468,
+          0.61083
+        ],
+        "task_success": true,
+        "task_score": 1.0
+      },
+      {
+        "seed": 33,
+        "grasp_confirmed": true,
+        "lift_confirmed": true,
+        "hoops_passed": [
+          true,
+          true,
+          true
+        ],
+        "thread_attached": true,
+        "grasp_assist_active": true,
+        "slip_consumed": true,
+        "button_depth_m": 0.03,
+        "verification_pressed": true,
+        "endpoint_error_m": 0.0,
+        "final_palm_xyz": [
+          0.27447,
+          -0.18397,
+          0.61083
+        ],
+        "task_success": true,
+        "task_score": 1.0
+      },
+      {
+        "seed": 34,
+        "grasp_confirmed": true,
+        "lift_confirmed": true,
+        "hoops_passed": [
+          true,
+          true,
+          true
+        ],
+        "thread_attached": true,
+        "grasp_assist_active": true,
+        "slip_consumed": true,
+        "button_depth_m": 0.03,
+        "verification_pressed": true,
+        "endpoint_error_m": 0.0,
+        "final_palm_xyz": [
+          0.27735,
+          -0.18726,
+          0.6108
+        ],
+        "task_success": true,
+        "task_score": 1.0
+      },
+      {
+        "seed": 35,
+        "grasp_confirmed": true,
+        "lift_confirmed": true,
+        "hoops_passed": [
+          true,
+          true,
+          true
+        ],
+        "thread_attached": true,
+        "grasp_assist_active": true,
+        "slip_consumed": true,
+        "button_depth_m": 0.03,
+        "verification_pressed": true,
+        "endpoint_error_m": 0.0,
+        "final_palm_xyz": [
+          0.27446,
+          -0.18446,
+          0.61087
+        ],
+        "task_success": true,
+        "task_score": 1.0
+      },
+      {
+        "seed": 36,
+        "grasp_confirmed": true,
+        "lift_confirmed": true,
+        "hoops_passed": [
+          true,
+          true,
+          true
+        ],
+        "thread_attached": true,
+        "grasp_assist_active": true,
+        "slip_consumed": true,
+        "button_depth_m": 0.03,
+        "verification_pressed": true,
+        "endpoint_error_m": 0.0,
+        "final_palm_xyz": [
+          0.27489,
+          -0.18464,
+          0.61085
+        ],
+        "task_success": true,
+        "task_score": 1.0
+      },
+      {
+        "seed": 37,
+        "grasp_confirmed": true,
+        "lift_confirmed": true,
+        "hoops_passed": [
+          true,
+          true,
+          true
+        ],
+        "thread_attached": true,
+        "grasp_assist_active": true,
+        "slip_consumed": true,
+        "button_depth_m": 0.03,
+        "verification_pressed": true,
+        "endpoint_error_m": 0.0,
+        "final_palm_xyz": [
+          0.27955,
+          -0.19218,
+          0.61083
+        ],
+        "task_success": true,
+        "task_score": 1.0
+      },
+      {
+        "seed": 38,
+        "grasp_confirmed": true,
+        "lift_confirmed": true,
+        "hoops_passed": [
+          true,
+          true,
+          true
+        ],
+        "thread_attached": true,
+        "grasp_assist_active": true,
+        "slip_consumed": true,
+        "button_depth_m": 0.03,
+        "verification_pressed": true,
+        "endpoint_error_m": 0.0,
+        "final_palm_xyz": [
+          0.27678,
+          -0.18952,
+          0.611
+        ],
+        "task_success": true,
+        "task_score": 1.0
+      },
+      {
+        "seed": 39,
+        "grasp_confirmed": true,
+        "lift_confirmed": true,
+        "hoops_passed": [
+          true,
+          true,
+          true
+        ],
+        "thread_attached": true,
+        "grasp_assist_active": true,
+        "slip_consumed": true,
+        "button_depth_m": 0.03,
+        "verification_pressed": true,
+        "endpoint_error_m": 0.0,
+        "final_palm_xyz": [
+          0.27507,
+          -0.18489,
+          0.61082
+        ],
+        "task_success": true,
+        "task_score": 1.0
+      }
+    ],
+    "open_loop": [
+      {
+        "seed": 0,
+        "grasp_confirmed": true,
+        "lift_confirmed": true,
+        "hoops_passed": [
+          true,
+          true,
+          true
+        ],
+        "thread_attached": true,
+        "grasp_assist_active": true,
+        "slip_consumed": true,
+        "button_depth_m": 0.03,
+        "verification_pressed": true,
+        "endpoint_error_m": 0.0,
+        "final_palm_xyz": [
+          0.30943,
+          -0.16067,
+          0.59785
+        ],
+        "task_success": true,
+        "task_score": 1.0
+      },
+      {
+        "seed": 1,
+        "grasp_confirmed": true,
+        "lift_confirmed": true,
+        "hoops_passed": [
+          true,
+          true,
+          true
+        ],
+        "thread_attached": true,
+        "grasp_assist_active": true,
+        "slip_consumed": true,
+        "button_depth_m": 0.03,
+        "verification_pressed": true,
+        "endpoint_error_m": 0.0,
+        "final_palm_xyz": [
+          0.31086,
+          -0.1824,
+          0.59835
+        ],
+        "task_success": true,
+        "task_score": 1.0
+      },
+      {
+        "seed": 2,
+        "grasp_confirmed": true,
+        "lift_confirmed": true,
+        "hoops_passed": [
+          true,
+          true,
+          true
+        ],
+        "thread_attached": true,
+        "grasp_assist_active": true,
+        "slip_consumed": true,
+        "button_depth_m": 0.03,
+        "verification_pressed": true,
+        "endpoint_error_m": 0.0,
+        "final_palm_xyz": [
+          0.31361,
+          -0.17938,
+          0.59826
+        ],
+        "task_success": true,
+        "task_score": 1.0
+      },
+      {
+        "seed": 3,
+        "grasp_confirmed": true,
+        "lift_confirmed": true,
+        "hoops_passed": [
+          true,
+          true,
+          true
+        ],
+        "thread_attached": true,
+        "grasp_assist_active": true,
+        "slip_consumed": true,
+        "button_depth_m": 0.03,
+        "verification_pressed": true,
+        "endpoint_error_m": 0.0,
+        "final_palm_xyz": [
+          0.3101,
+          -0.17127,
+          0.59839
+        ],
+        "task_success": true,
+        "task_score": 1.0
+      },
+      {
+        "seed": 4,
+        "grasp_confirmed": true,
+        "lift_confirmed": true,
+        "hoops_passed": [
+          true,
+          true,
+          true
+        ],
+        "thread_attached": true,
+        "grasp_assist_active": true,
+        "slip_consumed": true,
+        "button_depth_m": 0.03,
+        "verification_pressed": true,
+        "endpoint_error_m": 0.0,
+        "final_palm_xyz": [
+          0.31328,
+          -0.17997,
+          0.59828
+        ],
+        "task_success": true,
+        "task_score": 1.0
+      },
+      {
+        "seed": 5,
+        "grasp_confirmed": true,
+        "lift_confirmed": true,
+        "hoops_passed": [
+          true,
+          true,
+          true
+        ],
+        "thread_attached": true,
+        "grasp_assist_active": true,
+        "slip_consumed": true,
+        "button_depth_m": 0.03,
+        "verification_pressed": true,
+        "endpoint_error_m": 0.0,
+        "final_palm_xyz": [
+          0.3103,
+          -0.18319,
+          0.5986
+        ],
+        "task_success": true,
+        "task_score": 1.0
+      },
+      {
+        "seed": 6,
+        "grasp_confirmed": true,
+        "lift_confirmed": true,
+        "hoops_passed": [
+          true,
+          true,
+          true
+        ],
+        "thread_attached": true,
+        "grasp_assist_active": true,
+        "slip_consumed": true,
+        "button_depth_m": 0.03,
+        "verification_pressed": true,
+        "endpoint_error_m": 0.0,
+        "final_palm_xyz": [
+          0.30877,
+          -0.16276,
+          0.59809
+        ],
+        "task_success": true,
+        "task_score": 1.0
+      },
+      {
+        "seed": 7,
+        "grasp_confirmed": true,
+        "lift_confirmed": true,
+        "hoops_passed": [
+          true,
+          true,
+          true
+        ],
+        "thread_attached": true,
+        "grasp_assist_active": true,
+        "slip_consumed": true,
+        "button_depth_m": 0.03,
+        "verification_pressed": true,
+        "endpoint_error_m": 0.0,
+        "final_palm_xyz": [
+          0.30399,
+          -0.16407,
+          0.59857
+        ],
+        "task_success": true,
+        "task_score": 1.0
+      },
+      {
+        "seed": 8,
+        "grasp_confirmed": true,
+        "lift_confirmed": true,
+        "hoops_passed": [
+          true,
+          true,
+          true
+        ],
+        "thread_attached": true,
+        "grasp_assist_active": true,
+        "slip_consumed": true,
+        "button_depth_m": 0.03,
+        "verification_pressed": true,
+        "endpoint_error_m": 0.0,
+        "final_palm_xyz": [
+          0.2945,
+          -0.14973,
+          0.59837
+        ],
+        "task_success": true,
+        "task_score": 1.0
+      },
+      {
+        "seed": 9,
+        "grasp_confirmed": true,
+        "lift_confirmed": true,
+        "hoops_passed": [
+          true,
+          true,
+          true
+        ],
+        "thread_attached": true,
+        "grasp_assist_active": true,
+        "slip_consumed": true,
+        "button_depth_m": 0.03,
+        "verification_pressed": true,
+        "endpoint_error_m": 0.0,
+        "final_palm_xyz": [
+          0.30901,
+          -0.16104,
+          0.59798
+        ],
+        "task_success": true,
+        "task_score": 1.0
+      },
+      {
+        "seed": 10,
+        "grasp_confirmed": true,
+        "lift_confirmed": true,
+        "hoops_passed": [
+          true,
+          true,
+          true
+        ],
+        "thread_attached": true,
+        "grasp_assist_active": true,
+        "slip_consumed": true,
+        "button_depth_m": 0.03,
+        "verification_pressed": true,
+        "endpoint_error_m": 0.0,
+        "final_palm_xyz": [
+          0.31405,
+          -0.18188,
+          0.59827
+        ],
+        "task_success": true,
+        "task_score": 1.0
+      },
+      {
+        "seed": 11,
+        "grasp_confirmed": true,
+        "lift_confirmed": true,
+        "hoops_passed": [
+          true,
+          true,
+          true
+        ],
+        "thread_attached": true,
+        "grasp_assist_active": true,
+        "slip_consumed": true,
+        "button_depth_m": 0.03,
+        "verification_pressed": true,
+        "endpoint_error_m": 0.0,
+        "final_palm_xyz": [
+          0.31255,
+          -0.17495,
+          0.59822
+        ],
+        "task_success": true,
+        "task_score": 1.0
+      },
+      {
+        "seed": 12,
+        "grasp_confirmed": true,
+        "lift_confirmed": true,
+        "hoops_passed": [
+          true,
+          true,
+          true
+        ],
+        "thread_attached": true,
+        "grasp_assist_active": true,
+        "slip_consumed": true,
+        "button_depth_m": 0.03,
+        "verification_pressed": true,
+        "endpoint_error_m": 0.0,
+        "final_palm_xyz": [
+          0.30972,
+          -0.1621,
+          0.59795
+        ],
+        "task_success": true,
+        "task_score": 1.0
+      },
+      {
+        "seed": 13,
+        "grasp_confirmed": true,
+        "lift_confirmed": true,
+        "hoops_passed": [
+          true,
+          true,
+          true
+        ],
+        "thread_attached": true,
+        "grasp_assist_active": true,
+        "slip_consumed": true,
+        "button_depth_m": 0.03,
+        "verification_pressed": true,
+        "endpoint_error_m": 0.0,
+        "final_palm_xyz": [
+          0.30475,
+          -0.15674,
+          0.59801
+        ],
+        "task_success": true,
+        "task_score": 1.0
+      },
+      {
+        "seed": 14,
+        "grasp_confirmed": true,
+        "lift_confirmed": true,
+        "hoops_passed": [
+          true,
+          true,
+          true
+        ],
+        "thread_attached": true,
+        "grasp_assist_active": true,
+        "slip_consumed": true,
+        "button_depth_m": 0.03,
+        "verification_pressed": true,
+        "endpoint_error_m": 0.0,
+        "final_palm_xyz": [
+          0.31852,
+          -0.18126,
+          0.59784
+        ],
+        "task_success": true,
+        "task_score": 1.0
+      },
+      {
+        "seed": 15,
+        "grasp_confirmed": true,
+        "lift_confirmed": true,
+        "hoops_passed": [
+          true,
+          true,
+          true
+        ],
+        "thread_attached": true,
+        "grasp_assist_active": true,
+        "slip_consumed": true,
+        "button_depth_m": 0.03,
+        "verification_pressed": true,
+        "endpoint_error_m": 0.0,
+        "final_palm_xyz": [
+          0.31218,
+          -0.16645,
+          0.5979
+        ],
+        "task_success": true,
+        "task_score": 1.0
+      },
+      {
+        "seed": 16,
+        "grasp_confirmed": true,
+        "lift_confirmed": true,
+        "hoops_passed": [
+          true,
+          true,
+          true
+        ],
+        "thread_attached": true,
+        "grasp_assist_active": true,
+        "slip_consumed": true,
+        "button_depth_m": 0.03,
+        "verification_pressed": true,
+        "endpoint_error_m": 0.0,
+        "final_palm_xyz": [
+          0.31326,
+          -0.18282,
+          0.59845
+        ],
+        "task_success": true,
+        "task_score": 1.0
+      },
+      {
+        "seed": 17,
+        "grasp_confirmed": true,
+        "lift_confirmed": true,
+        "hoops_passed": [
+          true,
+          true,
+          true
+        ],
+        "thread_attached": true,
+        "grasp_assist_active": true,
+        "slip_consumed": true,
+        "button_depth_m": 0.03,
+        "verification_pressed": true,
+        "endpoint_error_m": 0.0,
+        "final_palm_xyz": [
+          0.30996,
+          -0.16079,
+          0.59779
+        ],
+        "task_success": true,
+        "task_score": 1.0
+      },
+      {
+        "seed": 18,
+        "grasp_confirmed": true,
+        "lift_confirmed": true,
+        "hoops_passed": [
+          true,
+          true,
+          true
+        ],
+        "thread_attached": true,
+        "grasp_assist_active": true,
+        "slip_consumed": true,
+        "button_depth_m": 0.03,
+        "verification_pressed": true,
+        "endpoint_error_m": 0.0,
+        "final_palm_xyz": [
+          0.31153,
+          -0.16499,
+          0.59788
+        ],
+        "task_success": true,
+        "task_score": 1.0
+      },
+      {
+        "seed": 19,
+        "grasp_confirmed": true,
+        "lift_confirmed": true,
+        "hoops_passed": [
+          true,
+          true,
+          true
+        ],
+        "thread_attached": true,
+        "grasp_assist_active": true,
+        "slip_consumed": true,
+        "button_depth_m": 0.03,
+        "verification_pressed": true,
+        "endpoint_error_m": 0.0,
+        "final_palm_xyz": [
+          0.31166,
+          -0.17157,
+          0.59821
+        ],
+        "task_success": true,
+        "task_score": 1.0
+      },
+      {
+        "seed": 20,
+        "grasp_confirmed": true,
+        "lift_confirmed": true,
+        "hoops_passed": [
+          true,
+          true,
+          true
+        ],
+        "thread_attached": true,
+        "grasp_assist_active": true,
+        "slip_consumed": true,
+        "button_depth_m": 0.03,
+        "verification_pressed": true,
+        "endpoint_error_m": 0.0,
+        "final_palm_xyz": [
+          0.3148,
+          -0.18034,
+          0.5982
+        ],
+        "task_success": true,
+        "task_score": 1.0
+      },
+      {
+        "seed": 21,
+        "grasp_confirmed": true,
+        "lift_confirmed": true,
+        "hoops_passed": [
+          true,
+          true,
+          true
+        ],
+        "thread_attached": true,
+        "grasp_assist_active": true,
+        "slip_consumed": true,
+        "button_depth_m": 0.03,
+        "verification_pressed": true,
+        "endpoint_error_m": 0.0,
+        "final_palm_xyz": [
+          0.31206,
+          -0.16731,
+          0.59794
+        ],
+        "task_success": true,
+        "task_score": 1.0
+      },
+      {
+        "seed": 22,
+        "grasp_confirmed": true,
+        "lift_confirmed": true,
+        "hoops_passed": [
+          true,
+          true,
+          true
+        ],
+        "thread_attached": true,
+        "grasp_assist_active": true,
+        "slip_consumed": true,
+        "button_depth_m": 0.03,
+        "verification_pressed": true,
+        "endpoint_error_m": 0.0,
+        "final_palm_xyz": [
+          0.31217,
+          -0.16721,
+          0.5979
+        ],
+        "task_success": true,
+        "task_score": 1.0
+      },
+      {
+        "seed": 23,
+        "grasp_confirmed": true,
+        "lift_confirmed": true,
+        "hoops_passed": [
+          true,
+          true,
+          true
+        ],
+        "thread_attached": true,
+        "grasp_assist_active": true,
+        "slip_consumed": true,
+        "button_depth_m": 0.03,
+        "verification_pressed": true,
+        "endpoint_error_m": 0.0,
+        "final_palm_xyz": [
+          0.32437,
+          -0.15846,
+          0.59727
+        ],
+        "task_success": true,
+        "task_score": 1.0
+      },
+      {
+        "seed": 24,
+        "grasp_confirmed": true,
+        "lift_confirmed": true,
+        "hoops_passed": [
+          true,
+          true,
+          true
+        ],
+        "thread_attached": true,
+        "grasp_assist_active": true,
+        "slip_consumed": true,
+        "button_depth_m": 0.03,
+        "verification_pressed": true,
+        "endpoint_error_m": 0.0,
+        "final_palm_xyz": [
+          0.30942,
+          -0.16237,
+          0.59799
+        ],
+        "task_success": true,
+        "task_score": 1.0
+      },
+      {
+        "seed": 25,
+        "grasp_confirmed": true,
+        "lift_confirmed": true,
+        "hoops_passed": [
+          true,
+          true,
+          true
+        ],
+        "thread_attached": true,
+        "grasp_assist_active": true,
+        "slip_consumed": true,
+        "button_depth_m": 0.03,
+        "verification_pressed": true,
+        "endpoint_error_m": 0.0,
+        "final_palm_xyz": [
+          0.3098,
+          -0.16099,
+          0.59787
+        ],
+        "task_success": true,
+        "task_score": 1.0
+      },
+      {
+        "seed": 26,
+        "grasp_confirmed": true,
+        "lift_confirmed": true,
+        "hoops_passed": [
+          true,
+          true,
+          true
+        ],
+        "thread_attached": true,
+        "grasp_assist_active": true,
+        "slip_consumed": true,
+        "button_depth_m": 0.03,
+        "verification_pressed": true,
+        "endpoint_error_m": 0.0,
+        "final_palm_xyz": [
+          0.31108,
+          -0.17128,
+          0.59824
+        ],
+        "task_success": true,
+        "task_score": 1.0
+      },
+      {
+        "seed": 27,
+        "grasp_confirmed": true,
+        "lift_confirmed": true,
+        "hoops_passed": [
+          true,
+          true,
+          true
+        ],
+        "thread_attached": true,
+        "grasp_assist_active": true,
+        "slip_consumed": true,
+        "button_depth_m": 0.03,
+        "verification_pressed": true,
+        "endpoint_error_m": 0.0,
+        "final_palm_xyz": [
+          0.31218,
+          -0.17174,
+          0.59815
+        ],
+        "task_success": true,
+        "task_score": 1.0
+      },
+      {
+        "seed": 28,
+        "grasp_confirmed": true,
+        "lift_confirmed": true,
+        "hoops_passed": [
+          true,
+          true,
+          true
+        ],
+        "thread_attached": true,
+        "grasp_assist_active": true,
+        "slip_consumed": true,
+        "button_depth_m": 0.03,
+        "verification_pressed": true,
+        "endpoint_error_m": 0.0,
+        "final_palm_xyz": [
+          0.29965,
+          -0.15117,
+          0.59803
+        ],
+        "task_success": true,
+        "task_score": 1.0
+      },
+      {
+        "seed": 29,
+        "grasp_confirmed": true,
+        "lift_confirmed": true,
+        "hoops_passed": [
+          true,
+          true,
+          true
+        ],
+        "thread_attached": true,
+        "grasp_assist_active": true,
+        "slip_consumed": true,
+        "button_depth_m": 0.03,
+        "verification_pressed": true,
+        "endpoint_error_m": 0.0,
+        "final_palm_xyz": [
+          0.31418,
+          -0.18258,
+          0.59833
+        ],
+        "task_success": true,
+        "task_score": 1.0
+      },
+      {
+        "seed": 30,
+        "grasp_confirmed": true,
+        "lift_confirmed": true,
+        "hoops_passed": [
+          true,
+          true,
+          true
+        ],
+        "thread_attached": true,
+        "grasp_assist_active": true,
+        "slip_consumed": true,
+        "button_depth_m": 0.03,
+        "verification_pressed": true,
+        "endpoint_error_m": 0.0,
+        "final_palm_xyz": [
+          0.29642,
+          -0.14866,
+          0.5981
+        ],
+        "task_success": true,
+        "task_score": 1.0
+      },
+      {
+        "seed": 31,
+        "grasp_confirmed": true,
+        "lift_confirmed": true,
+        "hoops_passed": [
+          true,
+          true,
+          true
+        ],
+        "thread_attached": true,
+        "grasp_assist_active": true,
+        "slip_consumed": true,
+        "button_depth_m": 0.03,
+        "verification_pressed": true,
+        "endpoint_error_m": 0.0,
+        "final_palm_xyz": [
+          0.31668,
+          -0.18043,
+          0.59792
+        ],
+        "task_success": true,
+        "task_score": 1.0
+      },
+      {
+        "seed": 32,
+        "grasp_confirmed": true,
+        "lift_confirmed": true,
+        "hoops_passed": [
+          true,
+          true,
+          true
+        ],
+        "thread_attached": true,
+        "grasp_assist_active": true,
+        "slip_consumed": true,
+        "button_depth_m": 0.03,
+        "verification_pressed": true,
+        "endpoint_error_m": 0.0,
+        "final_palm_xyz": [
+          0.31232,
+          -0.17447,
+          0.59822
+        ],
+        "task_success": true,
+        "task_score": 1.0
+      },
+      {
+        "seed": 33,
+        "grasp_confirmed": true,
+        "lift_confirmed": true,
+        "hoops_passed": [
+          true,
+          true,
+          true
+        ],
+        "thread_attached": true,
+        "grasp_assist_active": true,
+        "slip_consumed": true,
+        "button_depth_m": 0.03,
+        "verification_pressed": true,
+        "endpoint_error_m": 0.0,
+        "final_palm_xyz": [
+          0.30763,
+          -0.1626,
+          0.59821
+        ],
+        "task_success": true,
+        "task_score": 1.0
+      },
+      {
+        "seed": 34,
+        "grasp_confirmed": true,
+        "lift_confirmed": true,
+        "hoops_passed": [
+          true,
+          true,
+          true
+        ],
+        "thread_attached": true,
+        "grasp_assist_active": true,
+        "slip_consumed": true,
+        "button_depth_m": 0.03,
+        "verification_pressed": true,
+        "endpoint_error_m": 0.0,
+        "final_palm_xyz": [
+          0.31324,
+          -0.17869,
+          0.59826
+        ],
+        "task_success": true,
+        "task_score": 1.0
+      },
+      {
+        "seed": 35,
+        "grasp_confirmed": true,
+        "lift_confirmed": true,
+        "hoops_passed": [
+          true,
+          true,
+          true
+        ],
+        "thread_attached": true,
+        "grasp_assist_active": true,
+        "slip_consumed": true,
+        "button_depth_m": 0.03,
+        "verification_pressed": true,
+        "endpoint_error_m": 0.0,
+        "final_palm_xyz": [
+          0.31347,
+          -0.18167,
+          0.59837
+        ],
+        "task_success": true,
+        "task_score": 1.0
+      },
+      {
+        "seed": 36,
+        "grasp_confirmed": true,
+        "lift_confirmed": true,
+        "hoops_passed": [
+          true,
+          true,
+          true
+        ],
+        "thread_attached": true,
+        "grasp_assist_active": true,
+        "slip_consumed": true,
+        "button_depth_m": 0.03,
+        "verification_pressed": true,
+        "endpoint_error_m": 0.0,
+        "final_palm_xyz": [
+          0.30953,
+          -0.16234,
+          0.59798
+        ],
+        "task_success": true,
+        "task_score": 1.0
+      },
+      {
+        "seed": 37,
+        "grasp_confirmed": true,
+        "lift_confirmed": true,
+        "hoops_passed": [
+          true,
+          true,
+          true
+        ],
+        "thread_attached": true,
+        "grasp_assist_active": true,
+        "slip_consumed": true,
+        "button_depth_m": 0.03,
+        "verification_pressed": true,
+        "endpoint_error_m": 0.0,
+        "final_palm_xyz": [
+          0.31738,
+          -0.17882,
+          0.59786
+        ],
+        "task_success": true,
+        "task_score": 1.0
+      },
+      {
+        "seed": 38,
+        "grasp_confirmed": true,
+        "lift_confirmed": true,
+        "hoops_passed": [
+          true,
+          true,
+          true
+        ],
+        "thread_attached": true,
+        "grasp_assist_active": true,
+        "slip_consumed": true,
+        "button_depth_m": 0.03,
+        "verification_pressed": true,
+        "endpoint_error_m": 0.0,
+        "final_palm_xyz": [
+          0.30851,
+          -0.15926,
+          0.59783
+        ],
+        "task_success": true,
+        "task_score": 1.0
+      },
+      {
+        "seed": 39,
+        "grasp_confirmed": true,
+        "lift_confirmed": true,
+        "hoops_passed": [
+          true,
+          true,
+          true
+        ],
+        "thread_attached": true,
+        "grasp_assist_active": true,
+        "slip_consumed": true,
+        "button_depth_m": 0.03,
+        "verification_pressed": true,
+        "endpoint_error_m": 0.0,
+        "final_palm_xyz": [
+          0.30864,
+          -0.15937,
+          0.5978
+        ],
+        "task_success": true,
+        "task_score": 1.0
+      }
+    ]
+  }
+}

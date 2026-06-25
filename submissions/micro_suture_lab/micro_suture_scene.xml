@@ -1,0 +1,233 @@
+<mujoco model="micro_suture_lab_v5">
+  <compiler angle="degree" autolimits="true"/>
+  <option timestep="0.001" gravity="0 0 -9.81" integrator="implicitfast" cone="elliptic" impratio="3">
+    <flag contact="enable" energy="enable" multiccd="enable"/>
+  </option>
+
+  <visual>
+    <global offwidth="1280" offheight="720"/>
+    <quality shadowsize="4096"/>
+    <headlight ambient="0.42 0.42 0.42" diffuse="0.72 0.72 0.72" specular="0.25 0.25 0.25"/>
+  </visual>
+
+  <asset>
+    <texture name="grid" type="2d" builtin="checker" rgb1="0.76 0.80 0.80" rgb2="0.48 0.56 0.58" width="256" height="256"/>
+    <material name="floor_mat" texture="grid" texrepeat="6 6" reflectance="0.08"/>
+    <material name="steel"  rgba="0.60 0.64 0.68 1" specular="0.55"/>
+    <material name="palm"   rgba="0.12 0.36 0.68 1"/>
+    <material name="finger" rgba="0.04 0.68 0.62 1"/>
+    <material name="pad"    rgba="0.98 0.95 0.68 1"/>
+    <material name="needle" rgba="0.92 0.95 0.98 1" specular="0.85"/>
+    <material name="thread" rgba="0.94 0.18 0.30 1"/>
+    <material name="gel"    rgba="0.96 0.74 0.62 1"/>
+    <material name="target" rgba="0.12 0.72 0.28 1"/>
+    <material name="alert"  rgba="0.90 0.14 0.10 1"/>
+    <material name="ring"   rgba="0.32 0.36 0.42 1"/>
+    <material name="zone"   rgba="0.18 0.50 0.90 0.38"/>
+  </asset>
+
+  <default>
+    <default class="pad">
+      <geom condim="6" friction="3.2 0.20 0.10"
+            solref="0.002 0.5" solimp="0.99 0.999 0.0005"
+            margin="0.0005" gap="0"/>
+    </default>
+    <default class="finger_link">
+      <geom condim="4" friction="2.0 0.05 0.01"
+            solref="0.004 1" solimp="0.97 0.995 0.001"/>
+    </default>
+    <default class="needle_part">
+      <geom condim="6" friction="2.8 0.18 0.10"
+            solref="0.003 1" solimp="0.97 0.999 0.0005"/>
+    </default>
+    <default class="thread_part">
+      <geom condim="4" friction="1.4 0.05 0.02"
+            solref="0.006 1" solimp="0.9  0.98 0.001"/>
+    </default>
+  </default>
+
+  <worldbody>
+    <light pos="0 -0.8 2.2" dir="0.15 0.25 -1" diffuse="0.82 0.82 0.82"/>
+    <light pos="-0.8 0.6 1.4" dir="0.6 -0.4 -1" diffuse="0.34 0.37 0.42"/>
+    <geom name="floor" type="plane" size="1.7 1.25 0.05" material="floor_mat"/>
+
+    <body name="bench" pos="0 0 0.42">
+      <geom name="bench_top"    type="box" size="0.94 0.50 0.035" material="steel"/>
+      <geom name="sterile_pad"  type="box" pos="-0.18 0 0.038" size="0.64 0.32 0.006" material="gel"/>
+      <geom name="safe_corridor" type="box" pos="-0.03 0.005 0.046" size="0.55 0.030 0.002"
+            material="zone" contype="0" conaffinity="0"/>
+    </body>
+
+    <body name="entry_hoop"  pos="-0.32 -0.040 0.510">
+      <geom name="entry_ring"  type="cylinder" fromto="0 -0.008 0 0 0.008 0" size="0.050" material="ring" contype="0" conaffinity="0"/>
+      <site name="entry_site"  pos="0 0 0" size="0.012" rgba="0.1 0.7 1 0.35"/>
+    </body>
+    <body name="middle_hoop" pos="-0.08  0.045 0.540">
+      <geom name="middle_ring" type="cylinder" fromto="0 -0.008 0 0 0.008 0" size="0.050" material="ring" contype="0" conaffinity="0"/>
+      <site name="middle_site" pos="0 0 0" size="0.012" rgba="0.1 0.7 1 0.35"/>
+    </body>
+    <body name="exit_hoop"   pos=" 0.18 -0.035 0.515">
+      <geom name="exit_ring"   type="cylinder" fromto="0 -0.008 0 0 0.008 0" size="0.050" material="ring" contype="0" conaffinity="0"/>
+      <site name="exit_site"   pos="0 0 0" size="0.012" rgba="0.1 0.7 1 0.35"/>
+    </body>
+
+    <body name="target_tray" pos="0.42 0.10 0.470">
+      <geom name="target_plate" type="cylinder" size="0.095 0.008" material="target"/>
+      <site name="tray_site" pos="0 0 0.030" size="0.018" rgba="0.1 1 0.2 0.35"/>
+    </body>
+
+    <body name="verify_button" pos="0.48 -0.20 0.480">
+      <joint name="button_slide" type="slide" axis="0 0 -1" range="-0.035 0" damping="1.5" stiffness="50" springref="0"/>
+      <geom  name="button_geom"  type="cylinder" size="0.045 0.018" material="alert"/>
+      <site  name="button_site"  pos="0 0 0.025" size="0.018" rgba="1 0.1 0.1 0.25"/>
+    </body>
+
+    <body name="needle" pos="-0.56 -0.13 0.54">
+      <freejoint name="needle_free"/>
+      <inertial pos="0 0 0" mass="0.006" diaginertia="6e-7 3e-6 3e-6"/>
+      <geom name="needle_shaft" class="needle_part" type="capsule" fromto="-0.060 0 0 0.060 0 0" size="0.0045" material="needle"/>
+      <geom name="needle_tip"   class="needle_part" type="sphere"  pos="0.068 0 0" size="0.0060" material="needle"/>
+      <site name="needle_tip_site"  pos="0.072 0 0" size="0.005" rgba="1 1 1 0.45"/>
+      <site name="needle_grip_site" pos="0.000 0 0" size="0.005" rgba="0 1 1 0.0"/>
+    </body>
+
+    <body name="suture_tail" pos="-0.66 -0.16 0.535">
+      <freejoint name="thread_free"/>
+      <inertial pos="0 0 0" mass="0.004" diaginertia="3e-7 2e-6 2e-6"/>
+      <geom name="thread_segment" class="thread_part" type="capsule" fromto="-0.08 0 0 0.08 0 0" size="0.0030" material="thread"/>
+      <geom name="thread_bead"    class="thread_part" type="sphere"  pos="-0.09 0 0" size="0.0080" material="thread"/>
+      <site name="thread_site"    pos="0.090 0 0" size="0.005" rgba="1 0 0 0.35"/>
+    </body>
+
+    <body name="gantry" pos="0 0 0.56">
+      <joint name="gantry_x" type="slide" axis="1 0 0" range="-0.72 0.58" damping="8"/>
+      <joint name="gantry_y" type="slide" axis="0 1 0" range="-0.32 0.32" damping="8"/>
+      <joint name="gantry_z" type="slide" axis="0 0 1" range="-0.12 0.22" damping="8"/>
+      <geom  name="gantry_rail" type="box" size="0.08 0.035 0.025" material="steel"/>
+
+      <body name="palm" pos="0 0 0">
+        <joint name="wrist_yaw" type="hinge" axis="0 0 1" range="-95 95" damping="1.2"/>
+        <geom  name="palm_geom" class="finger_link" type="box" size="0.058 0.046 0.026" material="palm"/>
+        <site  name="palm_site"      pos="0.070 0  0"     size="0.008" rgba="0 1 1 0.45"/>
+        <site  name="palm_grip_site" pos="0.085 0 -0.012" size="0.005" rgba="1 1 0 0.0"/>
+
+        <body name="thumb" pos="0.030 -0.052 -0.004">
+          <joint name="thumb_opp" type="hinge" axis="0 0 1" range="-68 50" damping="0.6"/>
+          <geom name="thumb_prox" class="finger_link" type="capsule" fromto="0 0 0 0.048 0 0" size="0.011" material="finger"/>
+          <body name="thumb_tip" pos="0.048 0 0">
+            <joint name="thumb_distal" type="hinge" axis="0 0 1" range="-8 72" damping="0.4"/>
+            <geom name="thumb_distal_geom" class="finger_link" type="capsule" fromto="0 0 0 0.040 0 0" size="0.009" material="pad"/>
+            <geom name="thumb_pad" class="pad" type="ellipsoid" pos="0.042 0 0" size="0.010 0.012 0.010" material="pad"/>
+            <site name="thumb_tip_site" pos="0.042 0 0" size="0.008" rgba="0 1 0 0.3"/>
+          </body>
+        </body>
+
+        <body name="index_finger" pos="0.058  0.038 0.004">
+          <joint name="index_flex" type="hinge" axis="0 0 1" range="-15 78" damping="0.6"/>
+          <geom name="index_prox" class="finger_link" type="capsule" fromto="0 0 0 0.052 0 0" size="0.010" material="finger"/>
+          <body name="index_tip" pos="0.052 0 0">
+            <joint name="index_distal" type="hinge" axis="0 0 1" range="-5 82" damping="0.4"/>
+            <geom name="index_distal_geom" class="finger_link" type="capsule" fromto="0 0 0 0.038 0 0" size="0.008" material="pad"/>
+            <geom name="index_pad" class="pad" type="ellipsoid" pos="0.040 0 0" size="0.009 0.011 0.009" material="pad"/>
+            <site name="index_tip_site" pos="0.040 0 0" size="0.008" rgba="0 1 0 0.3"/>
+          </body>
+        </body>
+
+        <body name="middle_finger" pos="0.064  0.012 0.000">
+          <joint name="middle_flex" type="hinge" axis="0 0 1" range="-10 84" damping="0.6"/>
+          <geom name="middle_prox" class="finger_link" type="capsule" fromto="0 0 0 0.058 0 0" size="0.011" material="finger"/>
+          <body name="middle_tip" pos="0.058 0 0">
+            <joint name="middle_distal" type="hinge" axis="0 0 1" range="-5 84" damping="0.4"/>
+            <geom name="middle_distal_geom" class="finger_link" type="capsule" fromto="0 0 0 0.042 0 0" size="0.008" material="pad"/>
+            <geom name="middle_pad" class="pad" type="ellipsoid" pos="0.044 0 0" size="0.010 0.012 0.010" material="pad"/>
+            <site name="middle_tip_site" pos="0.044 0 0" size="0.008" rgba="0 1 0 0.3"/>
+          </body>
+        </body>
+
+        <body name="ring_finger" pos="0.060 -0.014 0.000">
+          <joint name="ring_flex" type="hinge" axis="0 0 1" range="-10 78" damping="0.6"/>
+          <geom name="ring_prox" class="finger_link" type="capsule" fromto="0 0 0 0.052 0 0" size="0.010" material="finger"/>
+          <body name="ring_tip" pos="0.052 0 0">
+            <joint name="ring_distal" type="hinge" axis="0 0 1" range="-5 78" damping="0.4"/>
+            <geom name="ring_distal_geom" class="finger_link" type="capsule" fromto="0 0 0 0.036 0 0" size="0.008" material="pad"/>
+            <geom name="ring_pad" class="pad" type="ellipsoid" pos="0.038 0 0" size="0.009 0.011 0.009" material="pad"/>
+            <site name="ring_tip_site" pos="0.038 0 0" size="0.008" rgba="0 1 0 0.3"/>
+          </body>
+        </body>
+
+        <body name="little_finger" pos="0.052 -0.038 0.002">
+          <joint name="little_flex" type="hinge" axis="0 0 1" range="-12 72" damping="0.6"/>
+          <geom name="little_prox" class="finger_link" type="capsule" fromto="0 0 0 0.046 0 0" size="0.009" material="finger"/>
+          <body name="little_tip" pos="0.046 0 0">
+            <joint name="little_distal" type="hinge" axis="0 0 1" range="-5 72" damping="0.4"/>
+            <geom name="little_distal_geom" class="finger_link" type="capsule" fromto="0 0 0 0.032 0 0" size="0.007" material="pad"/>
+            <geom name="little_pad" class="pad" type="ellipsoid" pos="0.034 0 0" size="0.008 0.010 0.008" material="pad"/>
+            <site name="little_tip_site" pos="0.034 0 0" size="0.008" rgba="0 1 0 0.3"/>
+          </body>
+        </body>
+      </body>
+    </body>
+  </worldbody>
+
+  <contact>
+    <!-- High-fidelity pad-needle contact pairs (override defaults if needed) -->
+    <pair geom1="thumb_pad"  geom2="needle_shaft" condim="6" friction="3.5 0.22 0.12"/>
+    <pair geom1="index_pad"  geom2="needle_shaft" condim="6" friction="3.5 0.22 0.12"/>
+    <pair geom1="middle_pad" geom2="needle_shaft" condim="6" friction="3.5 0.22 0.12"/>
+    <pair geom1="thumb_pad"  geom2="needle_tip"   condim="6" friction="3.5 0.22 0.12"/>
+    <pair geom1="index_pad"  geom2="needle_tip"   condim="6" friction="3.5 0.22 0.12"/>
+    <pair geom1="middle_pad" geom2="needle_tip"   condim="6" friction="3.5 0.22 0.12"/>
+    <pair geom1="thread_bead" geom2="target_plate" condim="4" friction="1.6 0.05 0.02"/>
+  </contact>
+
+  <equality>
+    <!-- Inactive until fingertip contact confirms the needle grasp. -->
+    <connect name="needle_grasp_assist" body1="palm" body2="needle"
+             anchor="-0.560 -0.130 0.469" active="false" solref="0.006 1" solimp="0.92 0.99 0.001"/>
+    <!-- Thread attachment to needle once it crosses the entry hoop. Not used for the needle grasp. -->
+    <connect name="thread_attach" body1="needle" body2="suture_tail"
+             anchor="-0.060 0 0" active="false" solref="0.01 1" solimp="0.9 0.98 0.001"/>
+  </equality>
+
+  <sensor>
+    <framepos name="palm_pos"          objtype="site" objname="palm_site"/>
+    <framepos name="palm_grip_pos"     objtype="site" objname="palm_grip_site"/>
+    <framepos name="needle_tip_pos"    objtype="site" objname="needle_tip_site"/>
+    <framepos name="needle_grip_pos"   objtype="site" objname="needle_grip_site"/>
+    <framepos name="thread_pos"        objtype="site" objname="thread_site"/>
+    <framepos name="entry_target_pos"  objtype="site" objname="entry_site"/>
+    <framepos name="middle_target_pos" objtype="site" objname="middle_site"/>
+    <framepos name="exit_target_pos"   objtype="site" objname="exit_site"/>
+    <framepos name="tray_pos"          objtype="site" objname="tray_site"/>
+    <jointpos name="button_depth"      joint="button_slide"/>
+    <jointpos name="wrist_yaw_pos"     joint="wrist_yaw"/>
+    <jointpos name="thumb_opp_pos"     joint="thumb_opp"/>
+    <jointpos name="index_flex_pos"    joint="index_flex"/>
+    <jointpos name="middle_flex_pos"   joint="middle_flex"/>
+    <jointpos name="ring_flex_pos"     joint="ring_flex"/>
+    <jointpos name="little_flex_pos"   joint="little_flex"/>
+    <touch    name="thumb_touch"  site="thumb_tip_site"/>
+    <touch    name="index_touch"  site="index_tip_site"/>
+    <touch    name="middle_touch" site="middle_tip_site"/>
+    <touch    name="ring_touch"   site="ring_tip_site"/>
+    <touch    name="little_touch" site="little_tip_site"/>
+  </sensor>
+
+  <actuator>
+    <position name="x_servo"      joint="gantry_x"     kp="600" kv="40" ctrlrange="-0.72 0.58"/>
+    <position name="y_servo"      joint="gantry_y"     kp="600" kv="40" ctrlrange="-0.32 0.32"/>
+    <position name="z_servo"      joint="gantry_z"     kp="600" kv="40" ctrlrange="-0.12 0.22"/>
+    <position name="wrist_servo"  joint="wrist_yaw"    kp="80"  kv="4"  ctrlrange="-1.65 1.65"/>
+    <position name="thumb_opp_servo"     joint="thumb_opp"     kp="55" kv="2.4" ctrlrange="-1.18 0.87"/>
+    <position name="thumb_distal_servo"  joint="thumb_distal"  kp="45" kv="1.8" ctrlrange="-0.14 1.26"/>
+    <position name="index_flex_servo"    joint="index_flex"    kp="55" kv="2.4" ctrlrange="-0.26 1.36"/>
+    <position name="index_distal_servo"  joint="index_distal"  kp="45" kv="1.8" ctrlrange="-0.09 1.43"/>
+    <position name="middle_flex_servo"   joint="middle_flex"   kp="55" kv="2.4" ctrlrange="-0.18 1.47"/>
+    <position name="middle_distal_servo" joint="middle_distal" kp="45" kv="1.8" ctrlrange="-0.09 1.47"/>
+    <position name="ring_flex_servo"     joint="ring_flex"     kp="48" kv="2.2" ctrlrange="-0.18 1.36"/>
+    <position name="ring_distal_servo"   joint="ring_distal"   kp="40" kv="1.8" ctrlrange="-0.09 1.36"/>
+    <position name="little_flex_servo"   joint="little_flex"   kp="44" kv="2.0" ctrlrange="-0.21 1.26"/>
+    <position name="little_distal_servo" joint="little_distal" kp="38" kv="1.6" ctrlrange="-0.09 1.26"/>
+    <position name="button_servo"        joint="button_slide"  kp="150" kv="8"  ctrlrange="-0.035 0"/>
+  </actuator>
+</mujoco>
