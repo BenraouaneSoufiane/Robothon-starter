@@ -1,0 +1,1249 @@
+{
+  "object": "slippery_bottle",
+  "metric_source": "Autonomous contact-servo rollout with MuJoCo contacts between bottle geoms and FF Master right wrist/end-effector geoms",
+  "held": true,
+  "autonomous": true,
+  "samples": [
+    {
+      "t": 0.083,
+      "phase": "approach",
+      "controller": "autonomous_contact_servo",
+      "contact_count": 0,
+      "grip_force_N": 0.0,
+      "max_contact_penetration_m": 0.0,
+      "slip_safety_factor": 0.0,
+      "alignment_error_m": 0.42728,
+      "stable_grasp_steps": 0,
+      "real_grasp": false,
+      "contacts": []
+    },
+    {
+      "t": 1.083,
+      "phase": "close",
+      "controller": "autonomous_contact_servo",
+      "contact_count": 1,
+      "grip_force_N": 6.1026,
+      "max_contact_penetration_m": 0.00642,
+      "slip_safety_factor": 2.0995,
+      "alignment_error_m": 0.12625,
+      "stable_grasp_steps": 1,
+      "real_grasp": true,
+      "contacts": [
+        {
+          "robot_geom": "geom_80",
+          "robot_body": "right_wrist_roll_link",
+          "bottle": "bottle_lower",
+          "penetration_m": 0.00491,
+          "solver_normal_force_N": 0.3873
+        },
+        {
+          "robot_geom": "geom_80",
+          "robot_body": "right_wrist_roll_link",
+          "bottle": "bottle_shoulder",
+          "penetration_m": 0.00642,
+          "solver_normal_force_N": 2.8441
+        }
+      ]
+    },
+    {
+      "t": 2.0,
+      "phase": "lift",
+      "controller": "autonomous_contact_servo",
+      "contact_count": 1,
+      "grip_force_N": 6.5188,
+      "max_contact_penetration_m": 0.00686,
+      "slip_safety_factor": 2.2427,
+      "alignment_error_m": 0.0,
+      "stable_grasp_steps": 2,
+      "real_grasp": true,
+      "contacts": [
+        {
+          "robot_geom": "geom_80",
+          "robot_body": "right_wrist_roll_link",
+          "bottle": "bottle_lower",
+          "penetration_m": 0.00686,
+          "solver_normal_force_N": 4.4657
+        }
+      ]
+    },
+    {
+      "t": 2.083,
+      "phase": "lift",
+      "controller": "autonomous_contact_servo",
+      "contact_count": 1,
+      "grip_force_N": 5.7968,
+      "max_contact_penetration_m": 0.0061,
+      "slip_safety_factor": 1.9943,
+      "alignment_error_m": 0.0,
+      "stable_grasp_steps": 3,
+      "real_grasp": true,
+      "contacts": [
+        {
+          "robot_geom": "geom_80",
+          "robot_body": "right_wrist_roll_link",
+          "bottle": "bottle_lower",
+          "penetration_m": 0.0061,
+          "solver_normal_force_N": 3.9708
+        }
+      ]
+    },
+    {
+      "t": 2.167,
+      "phase": "lift",
+      "controller": "autonomous_contact_servo",
+      "contact_count": 1,
+      "grip_force_N": 5.1565,
+      "max_contact_penetration_m": 0.00543,
+      "slip_safety_factor": 1.774,
+      "alignment_error_m": 0.0,
+      "stable_grasp_steps": 4,
+      "real_grasp": true,
+      "contacts": [
+        {
+          "robot_geom": "geom_80",
+          "robot_body": "right_wrist_roll_link",
+          "bottle": "bottle_lower",
+          "penetration_m": 0.00543,
+          "solver_normal_force_N": 3.5341
+        }
+      ]
+    },
+    {
+      "t": 2.25,
+      "phase": "lift",
+      "controller": "autonomous_contact_servo",
+      "contact_count": 1,
+      "grip_force_N": 4.5789,
+      "max_contact_penetration_m": 0.00482,
+      "slip_safety_factor": 1.5753,
+      "alignment_error_m": 0.0,
+      "stable_grasp_steps": 5,
+      "real_grasp": true,
+      "contacts": [
+        {
+          "robot_geom": "geom_80",
+          "robot_body": "right_wrist_roll_link",
+          "bottle": "bottle_lower",
+          "penetration_m": 0.00482,
+          "solver_normal_force_N": 3.144
+        }
+      ]
+    },
+    {
+      "t": 2.333,
+      "phase": "lift",
+      "controller": "autonomous_contact_servo",
+      "contact_count": 1,
+      "grip_force_N": 4.0832,
+      "max_contact_penetration_m": 0.0043,
+      "slip_safety_factor": 1.4048,
+      "alignment_error_m": 0.0,
+      "stable_grasp_steps": 6,
+      "real_grasp": true,
+      "contacts": [
+        {
+          "robot_geom": "geom_80",
+          "robot_body": "right_wrist_roll_link",
+          "bottle": "bottle_lower",
+          "penetration_m": 0.0043,
+          "solver_normal_force_N": 2.7978
+        }
+      ]
+    },
+    {
+      "t": 2.417,
+      "phase": "lift",
+      "controller": "autonomous_contact_servo",
+      "contact_count": 1,
+      "grip_force_N": 3.6647,
+      "max_contact_penetration_m": 0.00386,
+      "slip_safety_factor": 1.2608,
+      "alignment_error_m": 0.0,
+      "stable_grasp_steps": 7,
+      "real_grasp": true,
+      "contacts": [
+        {
+          "robot_geom": "geom_80",
+          "robot_body": "right_wrist_roll_link",
+          "bottle": "bottle_lower",
+          "penetration_m": 0.00386,
+          "solver_normal_force_N": 2.5007
+        }
+      ]
+    },
+    {
+      "t": 2.5,
+      "phase": "lift",
+      "controller": "autonomous_contact_servo",
+      "contact_count": 1,
+      "grip_force_N": 3.3411,
+      "max_contact_penetration_m": 0.00352,
+      "slip_safety_factor": 1.1494,
+      "alignment_error_m": 0.0,
+      "stable_grasp_steps": 8,
+      "real_grasp": true,
+      "contacts": [
+        {
+          "robot_geom": "geom_80",
+          "robot_body": "right_wrist_roll_link",
+          "bottle": "bottle_lower",
+          "penetration_m": 0.00352,
+          "solver_normal_force_N": 2.2638
+        }
+      ]
+    },
+    {
+      "t": 2.583,
+      "phase": "lift",
+      "controller": "autonomous_contact_servo",
+      "contact_count": 1,
+      "grip_force_N": 3.1246,
+      "max_contact_penetration_m": 0.00329,
+      "slip_safety_factor": 1.075,
+      "alignment_error_m": 0.0,
+      "stable_grasp_steps": 9,
+      "real_grasp": true,
+      "contacts": [
+        {
+          "robot_geom": "geom_80",
+          "robot_body": "right_wrist_roll_link",
+          "bottle": "bottle_lower",
+          "penetration_m": 0.00329,
+          "solver_normal_force_N": 1.0741
+        },
+        {
+          "robot_geom": "geom_80",
+          "robot_body": "right_wrist_roll_link",
+          "bottle": "bottle_lower",
+          "penetration_m": 0.00329,
+          "solver_normal_force_N": 1.0714
+        }
+      ]
+    },
+    {
+      "t": 2.667,
+      "phase": "lift",
+      "controller": "autonomous_contact_servo",
+      "contact_count": 1,
+      "grip_force_N": 3.025,
+      "max_contact_penetration_m": 0.00318,
+      "slip_safety_factor": 1.0407,
+      "alignment_error_m": 0.0,
+      "stable_grasp_steps": 10,
+      "real_grasp": true,
+      "contacts": [
+        {
+          "robot_geom": "geom_80",
+          "robot_body": "right_wrist_roll_link",
+          "bottle": "bottle_lower",
+          "penetration_m": 0.00318,
+          "solver_normal_force_N": 1.9748
+        }
+      ]
+    },
+    {
+      "t": 2.75,
+      "phase": "lift",
+      "controller": "autonomous_contact_servo",
+      "contact_count": 1,
+      "grip_force_N": 3.0444,
+      "max_contact_penetration_m": 0.0032,
+      "slip_safety_factor": 1.0474,
+      "alignment_error_m": 0.0,
+      "stable_grasp_steps": 11,
+      "real_grasp": true,
+      "contacts": [
+        {
+          "robot_geom": "geom_80",
+          "robot_body": "right_wrist_roll_link",
+          "bottle": "bottle_lower",
+          "penetration_m": 0.0032,
+          "solver_normal_force_N": 0.9992
+        },
+        {
+          "robot_geom": "geom_80",
+          "robot_body": "right_wrist_roll_link",
+          "bottle": "bottle_lower",
+          "penetration_m": 0.0032,
+          "solver_normal_force_N": 0.9932
+        }
+      ]
+    },
+    {
+      "t": 2.833,
+      "phase": "lift",
+      "controller": "autonomous_contact_servo",
+      "contact_count": 1,
+      "grip_force_N": 3.175,
+      "max_contact_penetration_m": 0.00334,
+      "slip_safety_factor": 1.0923,
+      "alignment_error_m": 0.0,
+      "stable_grasp_steps": 12,
+      "real_grasp": true,
+      "contacts": [
+        {
+          "robot_geom": "geom_80",
+          "robot_body": "right_wrist_roll_link",
+          "bottle": "bottle_lower",
+          "penetration_m": 0.00334,
+          "solver_normal_force_N": 1.9638
+        }
+      ]
+    },
+    {
+      "t": 2.917,
+      "phase": "lift",
+      "controller": "autonomous_contact_servo",
+      "contact_count": 1,
+      "grip_force_N": 3.4017,
+      "max_contact_penetration_m": 0.00358,
+      "slip_safety_factor": 1.1703,
+      "alignment_error_m": 0.0,
+      "stable_grasp_steps": 13,
+      "real_grasp": true,
+      "contacts": [
+        {
+          "robot_geom": "geom_80",
+          "robot_body": "right_wrist_roll_link",
+          "bottle": "bottle_lower",
+          "penetration_m": 0.00358,
+          "solver_normal_force_N": 2.0509
+        }
+      ]
+    },
+    {
+      "t": 3.0,
+      "phase": "lift",
+      "controller": "autonomous_contact_servo",
+      "contact_count": 1,
+      "grip_force_N": 3.7153,
+      "max_contact_penetration_m": 0.00391,
+      "slip_safety_factor": 1.2782,
+      "alignment_error_m": 0.0,
+      "stable_grasp_steps": 14,
+      "real_grasp": true,
+      "contacts": [
+        {
+          "robot_geom": "geom_80",
+          "robot_body": "right_wrist_roll_link",
+          "bottle": "bottle_lower",
+          "penetration_m": 0.00391,
+          "solver_normal_force_N": 2.1888
+        }
+      ]
+    },
+    {
+      "t": 3.083,
+      "phase": "lift",
+      "controller": "autonomous_contact_servo",
+      "contact_count": 1,
+      "grip_force_N": 4.0761,
+      "max_contact_penetration_m": 0.00429,
+      "slip_safety_factor": 1.4023,
+      "alignment_error_m": 0.0,
+      "stable_grasp_steps": 15,
+      "real_grasp": true,
+      "contacts": [
+        {
+          "robot_geom": "geom_80",
+          "robot_body": "right_wrist_roll_link",
+          "bottle": "bottle_lower",
+          "penetration_m": 0.00429,
+          "solver_normal_force_N": 2.3428
+        }
+      ]
+    },
+    {
+      "t": 3.167,
+      "phase": "lift",
+      "controller": "autonomous_contact_servo",
+      "contact_count": 1,
+      "grip_force_N": 4.4901,
+      "max_contact_penetration_m": 0.00473,
+      "slip_safety_factor": 1.5448,
+      "alignment_error_m": 0.0,
+      "stable_grasp_steps": 16,
+      "real_grasp": true,
+      "contacts": [
+        {
+          "robot_geom": "geom_80",
+          "robot_body": "right_wrist_roll_link",
+          "bottle": "bottle_lower",
+          "penetration_m": 0.00473,
+          "solver_normal_force_N": 2.5384
+        }
+      ]
+    },
+    {
+      "t": 3.25,
+      "phase": "lift",
+      "controller": "autonomous_contact_servo",
+      "contact_count": 1,
+      "grip_force_N": 4.9332,
+      "max_contact_penetration_m": 0.00519,
+      "slip_safety_factor": 1.6972,
+      "alignment_error_m": 0.0,
+      "stable_grasp_steps": 17,
+      "real_grasp": true,
+      "contacts": [
+        {
+          "robot_geom": "geom_80",
+          "robot_body": "right_wrist_roll_link",
+          "bottle": "bottle_lower",
+          "penetration_m": 0.00519,
+          "solver_normal_force_N": 2.7468
+        }
+      ]
+    },
+    {
+      "t": 3.333,
+      "phase": "lift",
+      "controller": "autonomous_contact_servo",
+      "contact_count": 1,
+      "grip_force_N": 5.4099,
+      "max_contact_penetration_m": 0.00569,
+      "slip_safety_factor": 1.8612,
+      "alignment_error_m": 0.0,
+      "stable_grasp_steps": 18,
+      "real_grasp": true,
+      "contacts": [
+        {
+          "robot_geom": "geom_80",
+          "robot_body": "right_wrist_roll_link",
+          "bottle": "bottle_lower",
+          "penetration_m": 0.00569,
+          "solver_normal_force_N": 2.9596
+        }
+      ]
+    },
+    {
+      "t": 3.417,
+      "phase": "lift",
+      "controller": "autonomous_contact_servo",
+      "contact_count": 1,
+      "grip_force_N": 5.9209,
+      "max_contact_penetration_m": 0.00623,
+      "slip_safety_factor": 2.037,
+      "alignment_error_m": 0.0,
+      "stable_grasp_steps": 19,
+      "real_grasp": true,
+      "contacts": [
+        {
+          "robot_geom": "geom_80",
+          "robot_body": "right_wrist_roll_link",
+          "bottle": "bottle_lower",
+          "penetration_m": 0.00623,
+          "solver_normal_force_N": 3.1396
+        }
+      ]
+    },
+    {
+      "t": 3.5,
+      "phase": "lift",
+      "controller": "autonomous_contact_servo",
+      "contact_count": 1,
+      "grip_force_N": 6.5031,
+      "max_contact_penetration_m": 0.00685,
+      "slip_safety_factor": 2.2373,
+      "alignment_error_m": 0.0,
+      "stable_grasp_steps": 20,
+      "real_grasp": true,
+      "contacts": [
+        {
+          "robot_geom": "geom_80",
+          "robot_body": "right_wrist_roll_link",
+          "bottle": "bottle_lower",
+          "penetration_m": 0.00685,
+          "solver_normal_force_N": 3.376
+        }
+      ]
+    },
+    {
+      "t": 3.583,
+      "phase": "lift",
+      "controller": "autonomous_contact_servo",
+      "contact_count": 1,
+      "grip_force_N": 7.1117,
+      "max_contact_penetration_m": 0.00749,
+      "slip_safety_factor": 2.4467,
+      "alignment_error_m": 0.0,
+      "stable_grasp_steps": 21,
+      "real_grasp": true,
+      "contacts": [
+        {
+          "robot_geom": "geom_80",
+          "robot_body": "right_wrist_roll_link",
+          "bottle": "bottle_lower",
+          "penetration_m": 0.00749,
+          "solver_normal_force_N": 3.6442
+        }
+      ]
+    },
+    {
+      "t": 3.667,
+      "phase": "lift",
+      "controller": "autonomous_contact_servo",
+      "contact_count": 1,
+      "grip_force_N": 7.7353,
+      "max_contact_penetration_m": 0.00814,
+      "slip_safety_factor": 2.6612,
+      "alignment_error_m": 0.0,
+      "stable_grasp_steps": 22,
+      "real_grasp": true,
+      "contacts": [
+        {
+          "robot_geom": "geom_80",
+          "robot_body": "right_wrist_roll_link",
+          "bottle": "bottle_lower",
+          "penetration_m": 0.00814,
+          "solver_normal_force_N": 3.9118
+        }
+      ]
+    },
+    {
+      "t": 3.75,
+      "phase": "lift",
+      "controller": "autonomous_contact_servo",
+      "contact_count": 1,
+      "grip_force_N": 8.3724,
+      "max_contact_penetration_m": 0.00881,
+      "slip_safety_factor": 2.8804,
+      "alignment_error_m": 0.0,
+      "stable_grasp_steps": 23,
+      "real_grasp": true,
+      "contacts": [
+        {
+          "robot_geom": "geom_80",
+          "robot_body": "right_wrist_roll_link",
+          "bottle": "bottle_lower",
+          "penetration_m": 0.00881,
+          "solver_normal_force_N": 4.1844
+        }
+      ]
+    },
+    {
+      "t": 3.833,
+      "phase": "carry",
+      "controller": "autonomous_contact_servo",
+      "contact_count": 1,
+      "grip_force_N": 8.9014,
+      "max_contact_penetration_m": 0.00937,
+      "slip_safety_factor": 3.0624,
+      "alignment_error_m": 0.0,
+      "stable_grasp_steps": 24,
+      "real_grasp": true,
+      "contacts": [
+        {
+          "robot_geom": "geom_80",
+          "robot_body": "right_wrist_roll_link",
+          "bottle": "bottle_lower",
+          "penetration_m": 0.00937,
+          "solver_normal_force_N": 4.4036
+        }
+      ]
+    },
+    {
+      "t": 3.917,
+      "phase": "carry",
+      "controller": "autonomous_contact_servo",
+      "contact_count": 1,
+      "grip_force_N": 8.8301,
+      "max_contact_penetration_m": 0.00929,
+      "slip_safety_factor": 3.0379,
+      "alignment_error_m": 0.0,
+      "stable_grasp_steps": 25,
+      "real_grasp": true,
+      "contacts": [
+        {
+          "robot_geom": "geom_80",
+          "robot_body": "right_wrist_roll_link",
+          "bottle": "bottle_lower",
+          "penetration_m": 0.00929,
+          "solver_normal_force_N": 4.3732
+        }
+      ]
+    },
+    {
+      "t": 4.0,
+      "phase": "carry",
+      "controller": "autonomous_contact_servo",
+      "contact_count": 1,
+      "grip_force_N": 8.7605,
+      "max_contact_penetration_m": 0.00922,
+      "slip_safety_factor": 3.0139,
+      "alignment_error_m": 0.0,
+      "stable_grasp_steps": 26,
+      "real_grasp": true,
+      "contacts": [
+        {
+          "robot_geom": "geom_80",
+          "robot_body": "right_wrist_roll_link",
+          "bottle": "bottle_lower",
+          "penetration_m": 0.00922,
+          "solver_normal_force_N": 4.3434
+        }
+      ]
+    },
+    {
+      "t": 4.083,
+      "phase": "carry",
+      "controller": "autonomous_contact_servo",
+      "contact_count": 1,
+      "grip_force_N": 8.6923,
+      "max_contact_penetration_m": 0.00915,
+      "slip_safety_factor": 2.9905,
+      "alignment_error_m": 0.0,
+      "stable_grasp_steps": 27,
+      "real_grasp": true,
+      "contacts": [
+        {
+          "robot_geom": "geom_80",
+          "robot_body": "right_wrist_roll_link",
+          "bottle": "bottle_lower",
+          "penetration_m": 0.00915,
+          "solver_normal_force_N": 4.314
+        }
+      ]
+    },
+    {
+      "t": 4.167,
+      "phase": "carry",
+      "controller": "autonomous_contact_servo",
+      "contact_count": 1,
+      "grip_force_N": 8.6256,
+      "max_contact_penetration_m": 0.00908,
+      "slip_safety_factor": 2.9675,
+      "alignment_error_m": 0.0,
+      "stable_grasp_steps": 28,
+      "real_grasp": true,
+      "contacts": [
+        {
+          "robot_geom": "geom_80",
+          "robot_body": "right_wrist_roll_link",
+          "bottle": "bottle_lower",
+          "penetration_m": 0.00908,
+          "solver_normal_force_N": 4.2851
+        }
+      ]
+    },
+    {
+      "t": 4.25,
+      "phase": "carry",
+      "controller": "autonomous_contact_servo",
+      "contact_count": 1,
+      "grip_force_N": 8.5603,
+      "max_contact_penetration_m": 0.00901,
+      "slip_safety_factor": 2.9451,
+      "alignment_error_m": 0.0,
+      "stable_grasp_steps": 29,
+      "real_grasp": true,
+      "contacts": [
+        {
+          "robot_geom": "geom_80",
+          "robot_body": "right_wrist_roll_link",
+          "bottle": "bottle_lower",
+          "penetration_m": 0.00901,
+          "solver_normal_force_N": 4.2566
+        }
+      ]
+    },
+    {
+      "t": 4.333,
+      "phase": "carry",
+      "controller": "autonomous_contact_servo",
+      "contact_count": 1,
+      "grip_force_N": 8.4965,
+      "max_contact_penetration_m": 0.00894,
+      "slip_safety_factor": 2.9231,
+      "alignment_error_m": 0.0,
+      "stable_grasp_steps": 30,
+      "real_grasp": true,
+      "contacts": [
+        {
+          "robot_geom": "geom_80",
+          "robot_body": "right_wrist_roll_link",
+          "bottle": "bottle_lower",
+          "penetration_m": 0.00894,
+          "solver_normal_force_N": 4.2286
+        }
+      ]
+    },
+    {
+      "t": 4.417,
+      "phase": "carry",
+      "controller": "autonomous_contact_servo",
+      "contact_count": 1,
+      "grip_force_N": 8.4341,
+      "max_contact_penetration_m": 0.00888,
+      "slip_safety_factor": 2.9016,
+      "alignment_error_m": 0.0,
+      "stable_grasp_steps": 31,
+      "real_grasp": true,
+      "contacts": [
+        {
+          "robot_geom": "geom_80",
+          "robot_body": "right_wrist_roll_link",
+          "bottle": "bottle_lower",
+          "penetration_m": 0.00888,
+          "solver_normal_force_N": 4.2011
+        }
+      ]
+    },
+    {
+      "t": 4.5,
+      "phase": "carry",
+      "controller": "autonomous_contact_servo",
+      "contact_count": 1,
+      "grip_force_N": 8.373,
+      "max_contact_penetration_m": 0.00881,
+      "slip_safety_factor": 2.8806,
+      "alignment_error_m": 0.0,
+      "stable_grasp_steps": 32,
+      "real_grasp": true,
+      "contacts": [
+        {
+          "robot_geom": "geom_80",
+          "robot_body": "right_wrist_roll_link",
+          "bottle": "bottle_lower",
+          "penetration_m": 0.00881,
+          "solver_normal_force_N": 4.174
+        }
+      ]
+    },
+    {
+      "t": 4.583,
+      "phase": "carry",
+      "controller": "autonomous_contact_servo",
+      "contact_count": 1,
+      "grip_force_N": 8.3134,
+      "max_contact_penetration_m": 0.00875,
+      "slip_safety_factor": 2.8601,
+      "alignment_error_m": 0.0,
+      "stable_grasp_steps": 33,
+      "real_grasp": true,
+      "contacts": [
+        {
+          "robot_geom": "geom_80",
+          "robot_body": "right_wrist_roll_link",
+          "bottle": "bottle_lower",
+          "penetration_m": 0.00875,
+          "solver_normal_force_N": 4.1474
+        }
+      ]
+    },
+    {
+      "t": 4.667,
+      "phase": "carry",
+      "controller": "autonomous_contact_servo",
+      "contact_count": 1,
+      "grip_force_N": 8.2551,
+      "max_contact_penetration_m": 0.00869,
+      "slip_safety_factor": 2.84,
+      "alignment_error_m": 0.0,
+      "stable_grasp_steps": 34,
+      "real_grasp": true,
+      "contacts": [
+        {
+          "robot_geom": "geom_80",
+          "robot_body": "right_wrist_roll_link",
+          "bottle": "bottle_lower",
+          "penetration_m": 0.00869,
+          "solver_normal_force_N": 4.1212
+        }
+      ]
+    },
+    {
+      "t": 4.75,
+      "phase": "carry",
+      "controller": "autonomous_contact_servo",
+      "contact_count": 1,
+      "grip_force_N": 8.198,
+      "max_contact_penetration_m": 0.00863,
+      "slip_safety_factor": 2.8204,
+      "alignment_error_m": 0.0,
+      "stable_grasp_steps": 35,
+      "real_grasp": true,
+      "contacts": [
+        {
+          "robot_geom": "geom_80",
+          "robot_body": "right_wrist_roll_link",
+          "bottle": "bottle_lower",
+          "penetration_m": 0.00863,
+          "solver_normal_force_N": 4.0955
+        }
+      ]
+    },
+    {
+      "t": 4.833,
+      "phase": "carry",
+      "controller": "autonomous_contact_servo",
+      "contact_count": 1,
+      "grip_force_N": 8.1423,
+      "max_contact_penetration_m": 0.00857,
+      "slip_safety_factor": 2.8013,
+      "alignment_error_m": 0.0,
+      "stable_grasp_steps": 36,
+      "real_grasp": true,
+      "contacts": [
+        {
+          "robot_geom": "geom_80",
+          "robot_body": "right_wrist_roll_link",
+          "bottle": "bottle_lower",
+          "penetration_m": 0.00857,
+          "solver_normal_force_N": 4.0701
+        }
+      ]
+    },
+    {
+      "t": 4.917,
+      "phase": "carry",
+      "controller": "autonomous_contact_servo",
+      "contact_count": 1,
+      "grip_force_N": 8.0879,
+      "max_contact_penetration_m": 0.00851,
+      "slip_safety_factor": 2.7825,
+      "alignment_error_m": 0.0,
+      "stable_grasp_steps": 37,
+      "real_grasp": true,
+      "contacts": [
+        {
+          "robot_geom": "geom_80",
+          "robot_body": "right_wrist_roll_link",
+          "bottle": "bottle_lower",
+          "penetration_m": 0.00851,
+          "solver_normal_force_N": 4.0452
+        }
+      ]
+    },
+    {
+      "t": 5.0,
+      "phase": "carry",
+      "controller": "autonomous_contact_servo",
+      "contact_count": 1,
+      "grip_force_N": 8.0345,
+      "max_contact_penetration_m": 0.00846,
+      "slip_safety_factor": 2.7641,
+      "alignment_error_m": 0.0,
+      "stable_grasp_steps": 38,
+      "real_grasp": true,
+      "contacts": [
+        {
+          "robot_geom": "geom_80",
+          "robot_body": "right_wrist_roll_link",
+          "bottle": "bottle_lower",
+          "penetration_m": 0.00846,
+          "solver_normal_force_N": 4.0207
+        }
+      ]
+    },
+    {
+      "t": 5.083,
+      "phase": "carry",
+      "controller": "autonomous_contact_servo",
+      "contact_count": 1,
+      "grip_force_N": 7.9829,
+      "max_contact_penetration_m": 0.0084,
+      "slip_safety_factor": 2.7464,
+      "alignment_error_m": 0.0,
+      "stable_grasp_steps": 39,
+      "real_grasp": true,
+      "contacts": [
+        {
+          "robot_geom": "geom_80",
+          "robot_body": "right_wrist_roll_link",
+          "bottle": "bottle_lower",
+          "penetration_m": 0.0084,
+          "solver_normal_force_N": 3.9967
+        }
+      ]
+    },
+    {
+      "t": 5.167,
+      "phase": "carry",
+      "controller": "autonomous_contact_servo",
+      "contact_count": 1,
+      "grip_force_N": 7.9322,
+      "max_contact_penetration_m": 0.00835,
+      "slip_safety_factor": 2.729,
+      "alignment_error_m": 0.0,
+      "stable_grasp_steps": 40,
+      "real_grasp": true,
+      "contacts": [
+        {
+          "robot_geom": "geom_80",
+          "robot_body": "right_wrist_roll_link",
+          "bottle": "bottle_lower",
+          "penetration_m": 0.00835,
+          "solver_normal_force_N": 3.9731
+        }
+      ]
+    },
+    {
+      "t": 5.25,
+      "phase": "carry",
+      "controller": "autonomous_contact_servo",
+      "contact_count": 1,
+      "grip_force_N": 7.8828,
+      "max_contact_penetration_m": 0.0083,
+      "slip_safety_factor": 2.712,
+      "alignment_error_m": 0.0,
+      "stable_grasp_steps": 41,
+      "real_grasp": true,
+      "contacts": [
+        {
+          "robot_geom": "geom_80",
+          "robot_body": "right_wrist_roll_link",
+          "bottle": "bottle_lower",
+          "penetration_m": 0.0083,
+          "solver_normal_force_N": 3.9499
+        }
+      ]
+    },
+    {
+      "t": 5.333,
+      "phase": "carry",
+      "controller": "autonomous_contact_servo",
+      "contact_count": 1,
+      "grip_force_N": 7.8345,
+      "max_contact_penetration_m": 0.00825,
+      "slip_safety_factor": 2.6954,
+      "alignment_error_m": 0.0,
+      "stable_grasp_steps": 42,
+      "real_grasp": true,
+      "contacts": [
+        {
+          "robot_geom": "geom_80",
+          "robot_body": "right_wrist_roll_link",
+          "bottle": "bottle_lower",
+          "penetration_m": 0.00825,
+          "solver_normal_force_N": 3.927
+        }
+      ]
+    },
+    {
+      "t": 5.417,
+      "phase": "place",
+      "controller": "autonomous_contact_servo",
+      "contact_count": 1,
+      "grip_force_N": 7.7875,
+      "max_contact_penetration_m": 0.0082,
+      "slip_safety_factor": 2.6792,
+      "alignment_error_m": 0.0,
+      "stable_grasp_steps": 43,
+      "real_grasp": true,
+      "contacts": [
+        {
+          "robot_geom": "geom_80",
+          "robot_body": "right_wrist_roll_link",
+          "bottle": "bottle_lower",
+          "penetration_m": 0.0082,
+          "solver_normal_force_N": 3.9046
+        }
+      ]
+    },
+    {
+      "t": 5.5,
+      "phase": "place",
+      "controller": "autonomous_contact_servo",
+      "contact_count": 1,
+      "grip_force_N": 6.3067,
+      "max_contact_penetration_m": 0.00664,
+      "slip_safety_factor": 2.1698,
+      "alignment_error_m": 0.0,
+      "stable_grasp_steps": 44,
+      "real_grasp": true,
+      "contacts": [
+        {
+          "robot_geom": "geom_80",
+          "robot_body": "right_wrist_roll_link",
+          "bottle": "bottle_lower",
+          "penetration_m": 0.00664,
+          "solver_normal_force_N": 3.1391
+        }
+      ]
+    },
+    {
+      "t": 5.583,
+      "phase": "place",
+      "controller": "autonomous_contact_servo",
+      "contact_count": 1,
+      "grip_force_N": 4.9079,
+      "max_contact_penetration_m": 0.00517,
+      "slip_safety_factor": 1.6885,
+      "alignment_error_m": 0.0,
+      "stable_grasp_steps": 45,
+      "real_grasp": true,
+      "contacts": [
+        {
+          "robot_geom": "geom_80",
+          "robot_body": "right_wrist_roll_link",
+          "bottle": "bottle_lower",
+          "penetration_m": 0.00517,
+          "solver_normal_force_N": 2.4226
+        }
+      ]
+    },
+    {
+      "t": 5.667,
+      "phase": "place",
+      "controller": "autonomous_contact_servo",
+      "contact_count": 1,
+      "grip_force_N": 3.6085,
+      "max_contact_penetration_m": 0.0038,
+      "slip_safety_factor": 1.2415,
+      "alignment_error_m": 0.0,
+      "stable_grasp_steps": 46,
+      "real_grasp": true,
+      "contacts": [
+        {
+          "robot_geom": "geom_80",
+          "robot_body": "right_wrist_roll_link",
+          "bottle": "bottle_lower",
+          "penetration_m": 0.0038,
+          "solver_normal_force_N": 1.7619
+        }
+      ]
+    },
+    {
+      "t": 5.75,
+      "phase": "place",
+      "controller": "autonomous_contact_servo",
+      "contact_count": 1,
+      "grip_force_N": 2.4294,
+      "max_contact_penetration_m": 0.00256,
+      "slip_safety_factor": 0.8358,
+      "alignment_error_m": 0.0,
+      "stable_grasp_steps": 0,
+      "real_grasp": false,
+      "contacts": [
+        {
+          "robot_geom": "geom_80",
+          "robot_body": "right_wrist_roll_link",
+          "bottle": "bottle_lower",
+          "penetration_m": 0.00256,
+          "solver_normal_force_N": 1.1569
+        }
+      ]
+    },
+    {
+      "t": 5.833,
+      "phase": "place",
+      "controller": "autonomous_contact_servo",
+      "contact_count": 1,
+      "grip_force_N": 1.3976,
+      "max_contact_penetration_m": 0.00147,
+      "slip_safety_factor": 0.4808,
+      "alignment_error_m": 0.0,
+      "stable_grasp_steps": 0,
+      "real_grasp": false,
+      "contacts": [
+        {
+          "robot_geom": "geom_80",
+          "robot_body": "right_wrist_roll_link",
+          "bottle": "bottle_lower",
+          "penetration_m": 0.00147,
+          "solver_normal_force_N": 0.6464
+        }
+      ]
+    },
+    {
+      "t": 5.917,
+      "phase": "place",
+      "controller": "autonomous_contact_servo",
+      "contact_count": 1,
+      "grip_force_N": 0.5441,
+      "max_contact_penetration_m": 0.00057,
+      "slip_safety_factor": 0.1872,
+      "alignment_error_m": 0.0,
+      "stable_grasp_steps": 0,
+      "real_grasp": false,
+      "contacts": [
+        {
+          "robot_geom": "geom_80",
+          "robot_body": "right_wrist_roll_link",
+          "bottle": "bottle_lower",
+          "penetration_m": 0.00057,
+          "solver_normal_force_N": 0.2345
+        }
+      ]
+    },
+    {
+      "t": 6.0,
+      "phase": "place",
+      "controller": "autonomous_contact_servo",
+      "contact_count": 0,
+      "grip_force_N": 0.0,
+      "max_contact_penetration_m": 0.0,
+      "slip_safety_factor": 0.0,
+      "alignment_error_m": 0.0,
+      "stable_grasp_steps": 0,
+      "real_grasp": false,
+      "contacts": []
+    },
+    {
+      "t": 6.083,
+      "phase": "place",
+      "controller": "autonomous_contact_servo",
+      "contact_count": 0,
+      "grip_force_N": 0.0,
+      "max_contact_penetration_m": 0.0,
+      "slip_safety_factor": 0.0,
+      "alignment_error_m": 0.0,
+      "stable_grasp_steps": 0,
+      "real_grasp": false,
+      "contacts": []
+    },
+    {
+      "t": 6.167,
+      "phase": "place",
+      "controller": "autonomous_contact_servo",
+      "contact_count": 0,
+      "grip_force_N": 0.0,
+      "max_contact_penetration_m": 0.0,
+      "slip_safety_factor": 0.0,
+      "alignment_error_m": 0.0,
+      "stable_grasp_steps": 0,
+      "real_grasp": false,
+      "contacts": []
+    },
+    {
+      "t": 6.25,
+      "phase": "place",
+      "controller": "autonomous_contact_servo",
+      "contact_count": 0,
+      "grip_force_N": 0.0,
+      "max_contact_penetration_m": 0.0,
+      "slip_safety_factor": 0.0,
+      "alignment_error_m": 0.0,
+      "stable_grasp_steps": 0,
+      "real_grasp": false,
+      "contacts": []
+    },
+    {
+      "t": 6.333,
+      "phase": "place",
+      "controller": "autonomous_contact_servo",
+      "contact_count": 1,
+      "grip_force_N": 0.7679,
+      "max_contact_penetration_m": 0.00081,
+      "slip_safety_factor": 0.2642,
+      "alignment_error_m": 0.0,
+      "stable_grasp_steps": 0,
+      "real_grasp": false,
+      "contacts": [
+        {
+          "robot_geom": "geom_80",
+          "robot_body": "right_wrist_roll_link",
+          "bottle": "bottle_lower",
+          "penetration_m": 0.00081,
+          "solver_normal_force_N": 0.2518
+        }
+      ]
+    },
+    {
+      "t": 6.417,
+      "phase": "place",
+      "controller": "autonomous_contact_servo",
+      "contact_count": 1,
+      "grip_force_N": 2.302,
+      "max_contact_penetration_m": 0.00242,
+      "slip_safety_factor": 0.792,
+      "alignment_error_m": 0.0,
+      "stable_grasp_steps": 0,
+      "real_grasp": false,
+      "contacts": [
+        {
+          "robot_geom": "geom_80",
+          "robot_body": "right_wrist_roll_link",
+          "bottle": "bottle_lower",
+          "penetration_m": 0.00242,
+          "solver_normal_force_N": 0.6721
+        }
+      ]
+    },
+    {
+      "t": 6.5,
+      "phase": "place",
+      "controller": "autonomous_contact_servo",
+      "contact_count": 1,
+      "grip_force_N": 4.6136,
+      "max_contact_penetration_m": 0.00486,
+      "slip_safety_factor": 1.5872,
+      "alignment_error_m": 0.0,
+      "stable_grasp_steps": 1,
+      "real_grasp": true,
+      "contacts": [
+        {
+          "robot_geom": "geom_80",
+          "robot_body": "right_wrist_roll_link",
+          "bottle": "bottle_lower",
+          "penetration_m": 0.00486,
+          "solver_normal_force_N": 1.1964
+        }
+      ]
+    },
+    {
+      "t": 6.583,
+      "phase": "place",
+      "controller": "autonomous_contact_servo",
+      "contact_count": 1,
+      "grip_force_N": 6.8005,
+      "max_contact_penetration_m": 0.00716,
+      "slip_safety_factor": 2.3396,
+      "alignment_error_m": 0.0,
+      "stable_grasp_steps": 2,
+      "real_grasp": true,
+      "contacts": [
+        {
+          "robot_geom": "geom_80",
+          "robot_body": "right_wrist_roll_link",
+          "bottle": "bottle_lower",
+          "penetration_m": 0.00716,
+          "solver_normal_force_N": 2.3324
+        }
+      ]
+    },
+    {
+      "t": 6.667,
+      "phase": "place",
+      "controller": "autonomous_contact_servo",
+      "contact_count": 1,
+      "grip_force_N": 6.9921,
+      "max_contact_penetration_m": 0.00736,
+      "slip_safety_factor": 2.4055,
+      "alignment_error_m": 0.0,
+      "stable_grasp_steps": 3,
+      "real_grasp": true,
+      "contacts": [
+        {
+          "robot_geom": "geom_80",
+          "robot_body": "right_wrist_roll_link",
+          "bottle": "bottle_lower",
+          "penetration_m": 0.00736,
+          "solver_normal_force_N": 3.3348
+        }
+      ]
+    },
+    {
+      "t": 6.75,
+      "phase": "done",
+      "controller": "autonomous_contact_servo",
+      "contact_count": 1,
+      "grip_force_N": 6.1239,
+      "max_contact_penetration_m": 0.00645,
+      "slip_safety_factor": 2.1068,
+      "alignment_error_m": 0.0,
+      "stable_grasp_steps": 4,
+      "real_grasp": true,
+      "contacts": [
+        {
+          "robot_geom": "geom_80",
+          "robot_body": "right_wrist_roll_link",
+          "bottle": "bottle_lower",
+          "penetration_m": 0.00645,
+          "solver_normal_force_N": 3.2411
+        }
+      ]
+    }
+  ]
+}

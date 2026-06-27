@@ -1,0 +1,25 @@
+
+<mujoco model="adaptive_master_grasp_robot_demo">
+  <include file="/root/v3/Robothon-starter/assets/Master/ff_master_ultra.xml"/>
+  <statistic center="0 -0.16 0.58" extent="0.95"/>
+  <visual>
+    <headlight diffuse="0.7 0.7 0.7" ambient="0.35 0.35 0.35" specular="0.7 0.7 0.7"/>
+    <global azimuth="145" elevation="-18"/>
+  </visual>
+  <asset>
+    <material name="bottle_body" rgba="0.16 0.58 0.78 1"/>
+    <material name="bottle_cap" rgba="0.08 0.10 0.12 1"/>
+    <material name="table_mat" rgba="0.20 0.21 0.23 1"/>
+  </asset>
+  <worldbody>
+    <geom name="grasp_table" type="box" pos="0.12 -0.43 0.86" size="0.12 0.10 0.012" material="table_mat" friction="0.8 0.02 0.001"/>
+    <body name="picked_bottle" pos="0.11 -0.43 1.04">
+      <freejoint name="picked_bottle_free"/>
+      <geom name="bottle_lower" type="cylinder" pos="0 0 0" size="0.035 0.075" mass="0.22" material="bottle_body" friction="0.30 0.02 0.001"/>
+      <geom name="bottle_shoulder" type="sphere" pos="0 0 0.075" size="0.035" mass="0.03" material="bottle_body" friction="0.30 0.02 0.001"/>
+      <geom name="bottle_neck" type="cylinder" pos="0 0 0.12" size="0.018 0.038" mass="0.04" material="bottle_body" friction="0.30 0.02 0.001"/>
+      <geom name="bottle_cap" type="cylinder" pos="0 0 0.166" size="0.021 0.012" mass="0.01" material="bottle_cap" friction="0.30 0.02 0.001"/>
+    </body>
+    <camera name="grasp_cam" pos="0.48 -1.12 1.38" xyaxes="0.94 0.34 0 -0.20 0.55 0.81"/>
+  </worldbody>
+</mujoco>
